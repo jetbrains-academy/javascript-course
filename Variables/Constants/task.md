@@ -1,4 +1,3 @@
-## Constants
 Constant is an unchangeable variable. You can declare such a variable using the keyword `const`, set the value and it cannot be changed again.
 Such variables are used in two cases:
 1. to declare unchangeable variables whose values are known at the stage of program writing

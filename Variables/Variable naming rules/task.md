@@ -1,4 +1,3 @@
-## Variable naming rules
 Speaking of variable names, we can distinguish between restrictions and rules.
 
 - Restrictions (JavaScript limitations):

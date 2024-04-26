@@ -1,4 +1,3 @@
-## Variable scopes
 Before this, all the variables we declared were accessible for use. But that's not always the case. Let's discuss variable scopes. Scope determines the accessibility (visibility) of variables.
 JavaScript have 3 types of scope:
 - Global scope

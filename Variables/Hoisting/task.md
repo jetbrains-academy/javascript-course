@@ -1,4 +1,3 @@
-## Hoisting
 What if we try to refer to a variable that is not yet defined, but will be defined later in the program?
 ```
 console.log(b) // ReferenceError: Cannot access 'b' before initialization

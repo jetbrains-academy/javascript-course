@@ -1,5 +1,3 @@
-## More about variables
-
 Since a variable is a signed box with some data, we can put new data into it, including data from another box. That is, we can assign to a variable the value of another variable.
 
 ```

@@ -1,4 +1,3 @@
-## Declaration-Initialization-Usage
 Before we will talk about hoisting let's discuss a little about the lifecycle in JavaScript using the variable as an example.
 ```
 Declaration -> Initialization -> Usage

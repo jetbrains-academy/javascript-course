@@ -1,4 +1,3 @@
-## Creating variables
 Most of the time, a JavaScript application needs to work with information. This can be, for example, information about some product in an online shop. In order to work with this in our program we need variables.
 
 A variable is a "named storage" for the data. You can imagine it as a box on a bookshelf. The box stores the data, and the box has a sticker on it so that you don't forget what you kept in the box.
