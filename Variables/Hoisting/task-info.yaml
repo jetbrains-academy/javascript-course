@@ -1,0 +1,27 @@
+type: output
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 119
+        placeholder_text: |-
+          func()
+          console.log(a)
+          
+          function func() {
+              let b
+              console.log(a)
+              console.log(b)
+              b = 20
+          }
+          b = 20
+          
+          let a = 10
+          
+          let b
+        is_visible: false
+  - name: test/output.txt
+    visible: false
+  - name: test/input.txt
+    visible: false

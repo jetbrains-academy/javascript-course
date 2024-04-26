@@ -1,3 +1,10 @@
 content:
-  - Example task with jest lib test
-  - Example task with stdout test
+  - Creating variables
+  - More about variables
+  - Variable naming rules
+  - Constants
+  - Variable scopes
+  - Declaration-Initialization-Usage
+  - Hoisting
+  - TEST Example task with jest lib test
+  - TEST Example task with stdout test

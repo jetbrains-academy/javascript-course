@@ -1,0 +1,17 @@
+type: output
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 5
+        length: 6
+        placeholder_text: ""
+        is_visible: false
+      - offset: 27
+        length: 10
+        placeholder_text: b = 123
+        is_visible: false
+  - name: test/output.txt
+    visible: false
+  - name: test/input.txt
+    visible: false
