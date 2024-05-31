@@ -2,7 +2,7 @@ Most of the time, a JavaScript application needs to work with information. This 
 
 A variable is a "named storage" for the data. You can imagine it as a box on a bookshelf. The box stores the data, and the box has a sticker on it so that you don't forget what you kept in the box.
 
-To create a variable in JavaScript, use the let keyword. `let` is a special keyword in the JavaScript language. We will meet many other keywords in the future.
+To create a variable in JavaScript, use the `let` keyword. `let` is a special keyword in the JavaScript language. We will meet many other keywords in the future.
 
 Let's create variable greeting. This kind of variable creation is called "declaration" in programming languages:
 ```
@@ -20,10 +20,16 @@ We can change the value of a variable as many times as we want during the progra
 let greeting = 'Hello';
 ```
 
-Finally, let's learn how to see what is stored inside a variable. To do this, let's use the `console.log` function built into JS. It will display the value of the variable whose name we will give it
+Finally, let's learn how to see what is stored inside a variable. To do this, let's use the `console.log` function built into JS. It will display the value of the variable whose name we will give it.
 ```
 console.log(greeting)
 ```
+You can read more about this function [here](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static).
 
 ### Task
 Modify the program so that it displays the word "JavaScript" on the screen
+
+<div class="hint" title="More about variables">
+  You can find more about it in the <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables"> official docs</a>.
+</div>
+

@@ -2,14 +2,14 @@ let a = 10
 
 func()
 
-console.log(a)
+console.log("[global] a:", a)
 
 function func() {
     let b= 20
-    console.log(a)
-    console.log(b)
+    console.log("[func] a:", a)
+    console.log("[func] b:", b)
 }
 
 let b = 20
 
-console.log(b)
+console.log("[global] b:", b)

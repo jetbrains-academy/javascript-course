@@ -22,8 +22,8 @@ Although func() has not yet been declared at the time of the func() call, thanks
 ### Task
 Put the variable declarations in the correct order. The program should print:
 ```
-10
-20
-10
-20
+[func] a: 10
+[func] b: 20
+[global] a: 10
+[global] b: 20
 ```

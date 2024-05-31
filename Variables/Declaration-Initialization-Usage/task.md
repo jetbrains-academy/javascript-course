@@ -27,4 +27,4 @@ console.log(b) // undefined
 ```
 
 ### Task
-Fix the programme so that it prints the number 123 on the screen
+Fix the program so that it prints the number 123 on the screen

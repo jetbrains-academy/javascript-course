@@ -4,15 +4,15 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 119
+        length: 160
         placeholder_text: |-
           func()
-          console.log(a)
+          console.log("[global] a:", a)
           
           function func() {
               let b
-              console.log(a)
-              console.log(b)
+              console.log("[func] a:", a)
+              console.log("[func] b:", b)
               b = 20
           }
           b = 20

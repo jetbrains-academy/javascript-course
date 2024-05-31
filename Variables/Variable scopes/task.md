@@ -37,4 +37,10 @@ function func() {
 ```
 
 ### Task
-Remove lines that cause errors from the program
+There are some lines in the given program that cause errors when executing. They use variables that are not available in their scopes.
+Remove these lines that cause errors
+
+<div class="hint">
+  There are only two such lines
+</div>
+

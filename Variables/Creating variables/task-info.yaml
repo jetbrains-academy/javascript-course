@@ -3,8 +3,8 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 91
-        length: 14
+      - offset: 93
+        length: 12
         placeholder_text: // Make change here
   - name: test/output.txt
     visible: false
