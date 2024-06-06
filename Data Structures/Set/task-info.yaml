@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 58
+        placeholder_text: // Solve the task here
+  - name: test/test.js
+    visible: false

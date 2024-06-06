@@ -10,4 +10,5 @@ programming_language: JavaScript
 content:
   - Introduction
   - Variables
-  - TEMPLATES
+  - Data Structures
+  - Templates
