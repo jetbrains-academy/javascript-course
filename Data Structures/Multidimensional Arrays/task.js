@@ -9,3 +9,5 @@ let matrix = [
 ];
 
 matrix[matrix.length - 1][matrix[matrix.length - 1].length-1] = 777
+
+console.log(matrix);

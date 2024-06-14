@@ -9,7 +9,7 @@ We can also display the whole array on the screen using the function `console.lo
 
 ```javascript
 let colors = ["red", "blue", "green", "yellow"]
-console.log(colors)  // prints  [ 'red', 'blue', 'green', 'yellow' ]
+console.log(colors)  // prints [ 'red', 'blue', 'green', 'yellow' ]
 ```
 
 The main feature of arrays is that they are indexed storage. That is, each element has its own number (_index_). The indexes are sequential and start from **zero**. Using them you can interact with array elements.

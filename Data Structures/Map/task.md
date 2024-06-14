@@ -1,6 +1,6 @@
-We've already looked at objects, which allow us to store data as key-value pairs, and arrays, which are designed to store data in a specific order. But programmers often need more special data structures.
+We've already looked at _objects_, which allow us to store data as key-value pairs, and _arrays_, which are designed to store data in a specific order. But programmers often need more special data structures.
 
-Map is very similar to an Object. It is also designed to store data in the form of key-value pairs. The main difference between Map and Object is that in Map the keys can be of any type.
+_Map_ is very similar to an _Object_. It is also designed to store data in the form of key-value pairs. The main difference between _Map_ and _Object_ is that in _Map_ the keys can be of any type.
 
 Let's start with the declaration:
 ```javascript
@@ -20,10 +20,10 @@ console.log(squares);  // Map(3) { 4 => 16, 5 => 25, 'Four' => 'Sixteen' }
 ```
 
 Map also has other methods that are useful to us:
-- `get()` – returns value by the key. Returns `undefined` if no such key in Map
-- `has()` – check if Map have element with particular key
-- `delete()` – delete pair with particular key
-- `clear()` – remove all pairs from the Map
+- `squares.get()` – returns value by the key. Returns `undefined` if no such key in `squares` Map
+- `squares.has()` – check if `squares` Map have element with particular key
+- `squares.delete()` – delete pair with particular key
+- `squares.clear()` – remove all pairs from the `squares` Map
 
 ```javascript
 squares.delete(4)

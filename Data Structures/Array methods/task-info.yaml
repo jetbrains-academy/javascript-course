@@ -1,12 +1,10 @@
-type: output
+type: edu
 files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 55
+      - offset: 71
         length: 77
         placeholder_text: // Solve the task here
-  - name: test/output.txt
-    visible: false
-  - name: test/input.txt
+  - name: test/test.js
     visible: false

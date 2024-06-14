@@ -8,7 +8,7 @@ console.log(car.brand)  // prints "Volkswagen"
 car.mileage = car.mileage + 750  // increase mileage property
 ```
 
-Moreover, JavaScript allows you to add new or remove existing properties at any time. If you try to get the value of nonexistent property, its will be `undefined`
+Moreover, JavaScript allows you to add new or remove existing properties at any time. If you try to get the value of nonexistent property, its will be `undefined`. You can also delete any existing property using `delete` operator.
 ```javascript
 console.log(car.color)  // prints "undefined"
 car.color = "Red"
@@ -24,6 +24,7 @@ console.log("brand" in car)  // prints "true"
 ```
 
 ### Task
-Add two new properties to `car` object:
-- `price` with value `9250`
-- `currency` with value `"USD"`
+- Add two new properties to `car` object:
+  - `price` with value `9250`
+  - `currency` with value `"USD"`
+- Delete property `owner` from `car` object

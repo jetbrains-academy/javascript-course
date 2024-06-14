@@ -18,8 +18,13 @@ beforeAll(() => {
 
 test('Check name attribute', () => {
     try {
+        expect(student.hasOwnProperty("name")).toBe(true)
+    } catch (e){
+        customizeError(e, 'There is no "name" attribute in object "student"', true)
+        throw e
+    }
+    try {
         expect(student.name).toBe("Bob")
-
     } catch (e){
         customizeError(e, 'name attribute\'s value should be "Bob"', true)
         throw e
@@ -27,6 +32,12 @@ test('Check name attribute', () => {
 });
 
 test('Check age attribute', () => {
+    try {
+        expect(student.hasOwnProperty("age")).toBe(true)
+    } catch (e){
+        customizeError(e, 'There is no "age" attribute in object "student"', true)
+        throw e
+    }
     try {
         expect(student.age).toBe(21)
 
@@ -37,6 +48,12 @@ test('Check age attribute', () => {
 });
 
 test('Check averageGrade attribute', () => {
+    try {
+        expect(student.hasOwnProperty("averageGrade")).toBe(true)
+    } catch (e){
+        customizeError(e, 'There is no "averageGrade" attribute in object "student"', true)
+        throw e
+    }
     try {
         expect(student.averageGrade).toBe(4.28)
 

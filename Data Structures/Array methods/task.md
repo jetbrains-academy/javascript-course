@@ -21,11 +21,10 @@ console.log(colors)  // [ 'white', 'blue', 'pink' ]
 You can read about plenty of other methods [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods).
 
 ### Task
-You are given an array of number names.  
-Remove the first `2` elements from the array and print them on the screen one by one in a row in reverse order:
+You are given an array `numbers` with number names.  
+Remove the first `2` elements from the array and add them to the array `answer` **in reverse order**. It means, that array `answer` should be:
 ```
-Two
-One
+[ 'Two', 'One' ]
 ```
 
 <div class="hint">

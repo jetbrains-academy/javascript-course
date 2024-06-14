@@ -3,10 +3,10 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 204
+      - offset: 232
         length: 29
         placeholder_text: // Remove pair with key "Tomato"
-      - offset: 234
+      - offset: 262
         length: 32
         placeholder_text: // Add new pair with key "Pomelo" and weight 1.45
   - name: test/test.js
