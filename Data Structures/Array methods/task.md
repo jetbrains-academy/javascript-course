@@ -1,9 +1,9 @@
-Array provides not only the `at()` method to make work with it easier.
-Here are some of them:
-- `push()` – **adds** element to the **end**
-- `pop()` – **extracts** element from the **end**
-- `shift()` – **adds** element to the **beginning**
-- `unshift()` – **extracts** element from the **beginning**
+Arrays provide not only the `at()` method to make working with them easier.
+Here are some other methods:
+- `push()` – **adds** an element to the **end**
+- `pop()` – **extracts** an element from the **end**
+- `shift()` – **extracts** an element from the **beginning**
+- `unshift()` – **adds** an element to the **beginning**
 
 ```javascript
 let colors = ["red", "blue", "green"]
@@ -22,12 +22,12 @@ You can read about plenty of other methods [here](https://developer.mozilla.org/
 
 ### Task
 You are given an array `numbers` with number names.  
-Remove the first `2` elements from the array and add them to the array `answer` **in reverse order**. It means, that array `answer` should be:
+Remove the first two elements from the array and add them to the array `answer` **in reverse order**. This means that the array `answer` should be:
 ```
 [ 'Two', 'One' ]
 ```
 
 <div class="hint">
-  Pay attention to how <code>shift()</code> method works.
+  Pay attention to how the <code>shift()</code> method works.
 </div>
 
