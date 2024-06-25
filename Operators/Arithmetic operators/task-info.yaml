@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 43
+        length: 16
+        placeholder_text: // calculate the discriminant
+  - name: test/test.js
+    visible: false

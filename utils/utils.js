@@ -11,3 +11,25 @@ function customizeError(error, errorMessage, rmStack = false) {
         error.stack = null;
     }
 }
+
+
+/**
+ * Workaround for easier handling errors in importing variables from rewired modules
+ *
+ * @param {object} rewired_module Rewired module from which you want to import a variable
+ * @param {String} variable_name Variable name to be imported
+ *
+ * @return "variable_name" value
+ *
+ * @throws {Error} user-readable error if it was impossible to import a variable with that name
+ */
+function import_variable(rewired_module, variable_name){
+    try {
+        return rewired_module.__get__(variable_name);
+    }
+    catch (e) {
+        let errorToShow = new Error(`Checkout that variable with name ${variable_name} is defined in the ${rewired_module.__get__('module.filename').split('/').pop()}`);
+        errorToShow.stack = null;
+        throw errorToShow;
+    }
+}

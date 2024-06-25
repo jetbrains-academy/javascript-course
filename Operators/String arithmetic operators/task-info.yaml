@@ -1,0 +1,12 @@
+type: output
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 111
+        length: 87
+        placeholder_text: // use plus operator for string concatenation
+  - name: test/input.txt
+    visible: false
+  - name: test/output.txt
+    visible: false
