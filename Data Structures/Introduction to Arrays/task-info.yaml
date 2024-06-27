@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 435
+        length: 19
+        placeholder_text: // Add "brown" to the end of colors array
+      - offset: 455
+        length: 19
+        placeholder_text: // Add "black" to the end of colors array
+  - name: test/test.js
+    visible: false

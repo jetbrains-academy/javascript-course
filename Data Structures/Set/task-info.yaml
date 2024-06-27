@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 12
+        length: 10
+        placeholder_text: // declare a Set
+      - offset: 23
+        length: 35
+        placeholder_text: // Add elements "Ron" and "Harry"
+  - name: test/test.js
+    visible: false

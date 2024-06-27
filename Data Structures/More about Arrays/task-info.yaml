@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 84
+        length: 35
+        placeholder_text: // Replace fifth element from the end with "black"
+  - name: test/test.js
+    visible: false

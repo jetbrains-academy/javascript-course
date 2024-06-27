@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 14
+        length: 56
+        placeholder_text: // TODO
+  - name: test/test.js
+    visible: false
