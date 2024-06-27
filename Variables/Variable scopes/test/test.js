@@ -2,13 +2,15 @@ const rewire = require('rewire');
 const utils = rewire('#utils/utils.js')
 customizeError = utils.__get__('customizeError')
 
-try {
-    task = rewire('../task');
-}
-catch (e) {
-    e.stack = null
-    throw e;
-}
+beforeAll(() => {
+    try {
+        task = rewire('../task');
+    }
+    catch (e) {
+        e.stack = null
+        throw e;
+    }
+});
 
 test('Check left value', () => {
     try {
