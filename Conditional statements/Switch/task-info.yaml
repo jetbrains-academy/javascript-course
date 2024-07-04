@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 63
+        length: 60
+        placeholder_text: // handle Saturday and Sunday cases
+      - offset: 151
+        length: 17
+        placeholder_text: // update isWeekend with corresponding value
+  - name: test/test.js
+    visible: false
