@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 74
+        length: 16
+        placeholder_text: // add to car property "price" with value 9250
+      - offset: 91
+        length: 20
+        placeholder_text: // add to car property "currency" with value "USD"
+      - offset: 112
+        length: 16
+        placeholder_text: // delete property "owner" from car object
+  - name: test/test.js
+    visible: false

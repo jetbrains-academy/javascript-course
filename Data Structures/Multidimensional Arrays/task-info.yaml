@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 229
+        length: 67
+        placeholder_text: // Replace element 999 with 777
+  - name: test/test.js
+    visible: false
