@@ -26,7 +26,7 @@ console.log(11 % 3)  // 2
 console.log(11 ** 3) // 1331
 console.log(16 ** 0.5 ); // 4 (power of 0.5 is the same as a square root)
 ```
-You can read more about arithmetic operators [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#arithmetic_operators).
+You can read more about _arithmetic operators_ [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#arithmetic_operators).
 
 ### Task
 Write a program to calculate the discriminant of the quadratic polynomial:

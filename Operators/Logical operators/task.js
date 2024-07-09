@@ -4,6 +4,6 @@ let pass = {
     blocked: false
 }
 
-let grantAccess = pass.warehouseAccess && !pass.guest && !pass.blocked;
+let grantAccess = pass.warehouseAccess && ! pass.guest && ! pass.blocked;
 
 console.log(grantAccess)

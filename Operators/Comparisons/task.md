@@ -38,7 +38,7 @@ If you try to compare different data types, JavaScript will try to convert them 
 console.log('20' > 9);   // true, string '20' will be converted to number 20
 console.log(true == 1);  // true
 ```
-You can read more about comparisons [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators).
+You can read more about _comparison operators_ [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators).
 
 ### Task
 You are given a program with blanks. 

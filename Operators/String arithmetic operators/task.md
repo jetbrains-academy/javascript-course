@@ -1,6 +1,6 @@
 In arithmetic, the plus operator means adding numbers. 
 But you may have noticed that intuitively it often denotes union. 
-For example, if you see `Lemonade+ice` in the restaurant menu, you will immediately understand what is meant and will not think about math lessons.
+For example, if you see `Lemonade+Ice` in the restaurant menu, you will immediately understand what is meant and will not think about math lessons.
 
 There is similar logic in the JavaScript language. For example, the `+` operator can be used to _concatenate_ strings:
 
@@ -10,7 +10,7 @@ let s = "Hello" + "World"
 console.log(s)  // HelloWorld
 ```
 
-If the addition operator has only one of the elements of type string, the second element will be converted to type string:
+If the addition operator has only one of the elements of type string, the second element will be converted to type string. Since the strings are concatenated as is, you have to remember to add spaces where you want them.
 ```javascript
 console.log(1 + ' January')  // 1 January
 console.log('January ' + 1)  // January 1
