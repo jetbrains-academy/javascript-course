@@ -2,7 +2,7 @@ There are several logical operators in the JavaScript language.
 Despite their name, they can work not only with the _boolean_ data type, but for simplicity, we'll start with it.
 
 ### OR
-In JS this operator is represented with two vertical lines: `||`.  
+In JS, this operator is represented with two vertical lines: `||`.  
 The idea of the _OR_ operation is that the result will be `true` if **at least one** of the operands is `true`:
 ```javascript
 console.log(false || false)  // false
@@ -50,6 +50,6 @@ You are given a piece of a program that should check if an employee's pass allow
 Access to the warehouse is granted only if all 3 conditions are met at the same time:
 - The pass has warehouse access enabled.
 - It’s not a guest pass.
-- Pass is not blocked.
+- The pass is not blocked.
 
-Fill in the blanks to get the correct result 
+Fill in the blanks to get the correct result. 

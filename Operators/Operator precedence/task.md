@@ -11,7 +11,7 @@ The _unary plus_ operators have the highest precedence, so we can imagine that i
 console.log(1 + 2 - 2**2)  // -1
 ```
 
-Next will be performed exponentiation.
+Next, exponentiation will be performed.
 ```javascript
 console.log(1 + 2 - 4)  // -1
 ```

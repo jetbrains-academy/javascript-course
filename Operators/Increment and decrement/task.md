@@ -34,7 +34,7 @@ Now we can see the difference:
 The _prefix_ form returns the already incremented value as the operator's result, while the _postfix_ form returns the old value before the increment operation was performed.
 
 The decrement operator works in exactly the same way.
-You can also read more about [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment) and [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement)
+You can also read more about [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment) and [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement).
 
 ### Task
 Place an increment or decrement instead of `???` in such a way that after the program execution, the values of the variables will be:

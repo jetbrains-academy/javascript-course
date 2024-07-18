@@ -16,7 +16,7 @@ console.log(1 + ' January')  // 1 January
 console.log('January ' + 1)  // January 1
 ```
 
-The plus operator is the only binary arithmetic operator that does this. The others will, on the contrary, convert arguments to numbers
+The plus operator is the only binary arithmetic operator that does this. The others will, on the contrary, convert arguments to numbers:
 ```javascript
 console.log("1" - true)  // converts "true" to 1
 console.log("10" / "2")  // converts both operands to integers

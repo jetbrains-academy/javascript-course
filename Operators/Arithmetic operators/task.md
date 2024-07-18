@@ -2,7 +2,7 @@ We've already used the _assignment operator_ (`=`) in our course programs.
 In this lesson, we'll take a closer look at what other operators are available to us in JavaScript, as well as some of their specifics.
 
 Before we begin, let's clarify some terminology so we're on the same page:
-- An _operand_ (or _argument_) is what an _operator_ performs an action on. For example, in the expression `2 + 3`  the `+` operator has two operands: `2` and `3`.
+- An _operand_ (or _argument_) is what an _operator_ performs an action on. For example, in the expression `2 + 3`, the `+` operator has two operands: `2` and `3`.
 - Operators often have two operands and are called _binary_. But there are also _unary_ operators, which take one argument. For example, there is a unary negation operator that changes the sign of a number: `-10`.
 
 We'll start with operators we've known since school: _arithmetic_ operators.
