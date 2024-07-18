@@ -1,10 +1,10 @@
-In programming, it is a very commonly used operation of decreasing or increasing some variable by one. 
+In programming, incrementing or decrementing a variable by one is a very commonly used operation. 
 So much so that there are dedicated operations for that:  
 - `++` for _increment_ 
 - `--` for _decrement_
 
 
-The difficulty for beginners is that they can be used in _prefix_ and _postfix_ form. Let's deal with it by examples:
+The challenge for beginners is that these operations can be used in both _prefix_ and _postfix_ forms. Let's clarify with examples:
 
 ```javascript
 let sum = 10
@@ -14,7 +14,7 @@ console.log(sum);  // 11
 console.log(sum);  // 12
 ```
 
-So far there seems to be no difference. And it does, as long as we don't try to assign the result of this operation.
+So far, there seems to be no difference, until we try to assign the result of this operation.
 
 ```javascript
 let temp  // declare one more variable
@@ -31,13 +31,13 @@ console.log(temp);  // 11
 ```
 
 Now we can see the difference:
-The _prefix_ form returns an already incremented value as an operator's result. While the _postfix_ form returns the old value, before the increment operation was performed.
+The _prefix_ form returns the already incremented value as the operator's result, while the _postfix_ form returns the old value before the increment operation was performed.
 
-The decrement operator works exactly the same way.
+The decrement operator works in exactly the same way.
 You can also read more about [increment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment) and [decrement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement)
 
 ### Task
-Place increment or decrement instead of `???` in such a way that after the program execution the values of the variables will be:
+Place an increment or decrement instead of `???` in such a way that after the program execution, the values of the variables will be:
 - `a`: `11`
 - `b`: `9`
 - `c`: `9` 

@@ -4,6 +4,6 @@ content:
   - Operator precedence
   - Increment and decrement
   - Logical operators
-  - What logic with conversions
+  - Implicit type conversions
   - Comparisons
   - Weak and strict equal
