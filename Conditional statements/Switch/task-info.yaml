@@ -8,6 +8,6 @@ files:
         placeholder_text: // handle Saturday and Sunday cases
       - offset: 151
         length: 17
-        placeholder_text: // update isWeekend with corresponding value
+        placeholder_text: // update isWeekend with the corresponding value
   - name: test/test.js
     visible: false

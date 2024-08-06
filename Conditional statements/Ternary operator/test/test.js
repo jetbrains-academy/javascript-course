@@ -14,7 +14,7 @@ test('Check n', () => {
     try {
         expect(n).toBe(-20)
     } catch (e){
-        customizeError(e, `Do not modify n variable`, true)
+        customizeError(e, `Do not modify the n variable`, true)
         throw e
     }
 });
@@ -23,7 +23,7 @@ test('Check nAbs', () => {
     try {
         expect(nAbs).toBe(20)
     } catch (e){
-        customizeError(e, `For this n, value of nAbs should be 20`, true)
+        customizeError(e, `For this n, the value of nAbs should be 20`, true)
         throw e
     }
 });

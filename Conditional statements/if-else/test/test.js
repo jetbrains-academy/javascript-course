@@ -14,7 +14,7 @@ test('Check heartRate', () => {
     try {
         expect(heartRate).toBe(165)
     } catch (e){
-        customizeError(e, `Do not modify heartRate variable`, true)
+        customizeError(e, `Do not modify the heartRate variable`, true)
         throw e
     }
 });
@@ -23,7 +23,7 @@ test('Check message', () => {
     try {
         expect(message).toBe("Hard")
     } catch (e){
-        customizeError(e, `For this heartRate message should be "Hard"`, true)
+        customizeError(e, `For this heartRate, the message should be "Hard"`, true)
         throw e
     }
 });

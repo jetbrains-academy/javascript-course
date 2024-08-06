@@ -14,7 +14,7 @@ test('Check dayOfWeek', () => {
     try {
         expect(dayOfWeek).toBe("Sunday")
     } catch (e){
-        customizeError(e, `Do not modify dayOfWeek variable`, true)
+        customizeError(e, `Do not modify the dayOfWeek variable`, true)
         throw e
     }
 });

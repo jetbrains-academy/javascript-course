@@ -1,7 +1,7 @@
-You remember the task where we had to determine the intensity of a user's workout depending on the range in which his heart rate falls. 
-What if we don't have a range, but a finite set of values? In this case, we can do without the `if-else-if` chain using the `switch` operator.
+Do you remember the task where we had to determine the intensity of a user's workout based on the range in which their heart rate falls?
+What if we don't have a range but instead have a finite set of values? In this case, we can eliminate the need for an `if-else-if` chain by using the `switch` operator.
 
-Let's understand by example how to work with it:
+Let's understand how to work with it through an example:
 ```js
 let color = "green"
 let action = ""
@@ -21,11 +21,11 @@ switch(color) {
 console.log(action)  // Go
 ```
 
-Operator `switch` takes some value as an _argument_. It tries to compare it one by one with the values specified by the keywords `case`. If there is a match, the instructions specified after the `case` are executed.
-If none of the values from the `case` matches, then the instructions from the `default` block (if this block presents) are executed. `default` is not a mandatory block.
+The `switch` operator takes a value as an _argument_. It tries to compare this value one by one with the values specified by the `case` keywords. If there is a match, the instructions specified after the corresponding `case` are executed.
+If none of the values from the `case` statements match, then the instructions in the `default` block (if this block is present) are executed. The `default` block is optional.
 
-You may notice that all case blocks have a `break` instruction after the assignment instruction. 
-When `break` instruction is executed, processing of the `switch` block is terminated. If you remove `break`, the following `case` blocks will be executed until `break` is encountered or `switch` descriptions will end:
+You may notice that all case blocks have a `break` statement following the assignment instruction.
+When the `break` instruction is executed, the processing of the `switch` block is terminated. If you remove `break`, the subsequent `case` blocks will be executed until a `break` is encountered or the end of the `switch` block is reached:
 ```js
 let letter = "b"
 switch(letter) {
@@ -34,10 +34,9 @@ switch(letter) {
     case "c": console.log("c")  // will print "c"
 }
 ```
-`switch` is a pretty specific but very flexible operator. You can learn about all the specifics of its use [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).
+The `switch` statement is quite specific but very flexible. You can learn about all the details of its use [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).
 
 ### Task
-You are given a fragment of a program that checks that the day of the week is a weekend. Complete the gaps in the `switch` in such a way that
-- `isWeekend` would be `true` if `dayOfWeek` equals `"Saturday"` or `"Sunday"`
-- `isWeekend` would be `false` otherwise
-
+You are given a fragment of a program that checks whether a given day of the week is a weekend. Complete the gaps in the `switch` statement so that:
+- `isWeekend` is `true` if `dayOfWeek` equals `"Saturday"` or `"Sunday"`.
+- `isWeekend` is `false` otherwise.
