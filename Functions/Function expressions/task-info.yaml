@@ -4,7 +4,10 @@ files:
     visible: true
     placeholders:
       - offset: 51
-        length: 16
+        length: 11
         placeholder_text: // declare summarizer variable here
+      - offset: 63
+        length: 17
+        placeholder_text: // assign value of `add` variable to summarizer
   - name: test/test.js
     visible: false

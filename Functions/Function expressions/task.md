@@ -21,4 +21,4 @@ The main difference between a _function expression_ and a _function declaration_
 
 Since the value in an assignment can be a function, you can use this feature in further assignments as well.
 
-Declare the variable `summarizer` and assign it the value of the variable `add`.
+Declare the `summarizer` variable and assign it the value of the `add` variable.

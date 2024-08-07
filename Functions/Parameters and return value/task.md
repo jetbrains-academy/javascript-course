@@ -37,11 +37,11 @@ You can read more about returning values [here](https://developer.mozilla.org/en
 
 ### Task
 
-Write an `isRectangular` function with three parameters specifying the lengths of the sides of a triangle: `side1`, `side2`, and `side3.`
+Write an `isRightTriangle` function with three parameters specifying the lengths of the sides of a triangle: `side1`, `side2`, and `side3.`
 
-The function must check if a triangle with such sides is a rectangular triangle. You can use the [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem) for this check.
+The function must check if a triangle with such sides is a right triangle. You can use the [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem) for this check.
 
-If the triangle is rectangular, the function should return `true`, otherwise `false`.
+If the triangle is right, the function should return `true`, otherwise `false`.
 
 <div class="hint">
   You need to consider is that the side lengths can be passed to the function in any order.

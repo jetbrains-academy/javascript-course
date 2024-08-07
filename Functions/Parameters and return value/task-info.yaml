@@ -3,7 +3,7 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 56
+      - offset: 58
         length: 121
         placeholder_text: // check the triangle sides
   - name: test/test.js
