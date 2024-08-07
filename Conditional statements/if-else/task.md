@@ -58,5 +58,5 @@ console.log("Hello")  // this will always be executed, regardless of the "number
 ### Task
 Imagine you are developing a fitness monitoring program. You need to estimate the intensity of the user's workout based on their heart rate. Fill in the gaps according to the following conditions:
 - If the heart rate is _less than or equal_ to `120`, the workout is considered `"Easy"`.
-- If the heart rate _greater than_ `120` but _less than or equal_ to `155`, the workout is considered `"Moderate"`.
+- If the heart rate is _greater than_ `120` but _less than or equal_ to `155`, the workout is considered `"Moderate"`.
 - If the heart rate is _strictly greater than_ `155`, the workout is considered `"Hard"`.
