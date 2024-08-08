@@ -1,9 +1,9 @@
-It already seems trivial for us to have such a line where we assign the value `"Tom"` to the variable `name`.
+It might seem trivial to have a line where we assign the value `"Tom"` to the variable `name`.
 ```js
 let name = "Tom"
 ```
 
-But actually, in JavaScript, a function can also be a value, and it can be assigned to a variable:
+Actually, in JavaScript, a function can also be a value and can be assigned to a variable:
 ```js
 let hello = function () {
     console.log("Hello!")
@@ -12,9 +12,10 @@ let hello = function () {
 hello()  // prints "Hello!"
 ```
 
-This is another way for creating a function called _Function Expression_. It allows you to define a function inside an expression.
+This is another way of creating a function called a called _Function Expression_. It allows you to define a function within an expression.
 
-The main difference between a _function expression_ and a _function declaration_ is the function name, which can be omitted in _function expressions_ to create _anonymous_ functions. A more specific description is beyond the scope of the course for now, so you can read in detail about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
+The main difference between a _function expression_ and a _function declaration_ is the function name, which can be omitted in _function expressions_ to create _anonymous_ functions.
+A more detailed explanation is beyond the scope of this course for now, so you can read more about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
 
 
 ### Task

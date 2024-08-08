@@ -28,7 +28,7 @@ function import_variable(rewired_module, variable_name){
         return rewired_module.__get__(variable_name);
     }
     catch (e) {
-        let errorToShow = new Error(`Checkout that name ${variable_name} is defined in the ${rewired_module.__get__('module.filename').split('/').pop()}`);
+        let errorToShow = new Error(`Check that the variable ${variable_name} is defined in the file ${rewired_module.__get__('module.filename').split('/').pop()}`);
         errorToShow.stack = null;
         throw errorToShow;
     }

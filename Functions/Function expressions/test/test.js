@@ -31,7 +31,7 @@ test('Check function', () => {
     try {
         expect(summarizer(50, -70)).toBe(-20)
     } catch (e){
-        customizeError(e, 'Do not modify original add function. add(50, -70) should be -20', true)
+        customizeError(e, 'Do not modify the original `add` function. add(50, -70) should be -20', true)
         throw e
     }
 });

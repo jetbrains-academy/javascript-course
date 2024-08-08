@@ -14,12 +14,12 @@ test('Check default examples', () => {
         expect(max(-15, -25)).toBe(-15)
         expect(max(  7,   7)).toBe(7)
     } catch (e){
-        customizeError(e, 'Make sure the examples from task.js works. You can run task.js manually.', true)
+        customizeError(e, 'Make sure the examples from task.js work. You can run task.js manually.', true)
         throw e
     }
 });
 
-test('Check equals values', () => {
+test('Check equal values', () => {
     try {
         expect(max(-50, -50)).toBe(-50)
     } catch (e){

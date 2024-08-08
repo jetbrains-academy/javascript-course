@@ -15,17 +15,17 @@ test('Check default examples', () => {
         expect(isRightTriangle(5,3,4)).toBe(true)
         expect(isRightTriangle(4,3,4)).toBe(false)
     } catch (e){
-        customizeError(e, 'Make sure the examples from task.js works. You can run task.js manually.', true)
+        customizeError(e, 'Make sure the examples from task.js work. You can run task.js manually.', true)
         throw e
     }
 });
 
-test('Check equals sides', () => {
+test('Check equal sides', () => {
     try {
         expect(isRightTriangle(2,2,2)).toBe(false)
         expect(isRightTriangle(1000,1000,1000)).toBe(false)
     } catch (e){
-        customizeError(e, 'A triangle with equal sides is not a rectangular triangle.', true)
+        customizeError(e, 'A triangle with equal sides is not a right triangle.', true)
         throw e
     }
 })
@@ -34,7 +34,7 @@ test('Check custom triangle', () => {
     try {
         expect(isRightTriangle(20,48,52)).toBe(true)
     } catch (e){
-        customizeError(e, 'A triangle with sides 20, 48, 52 is rectangular', true)
+        customizeError(e, 'A triangle with sides 20, 48 and 52 is a right triangle.', true)
         throw e
     }
 })
