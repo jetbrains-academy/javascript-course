@@ -1,4 +1,4 @@
-In the [Variables scopes lesson](course://Variables/Variable scopes), we learned that all variables have their own scopes. 
+In the [Variable Scopes lesson](course://Variables/Variable scopes), we learned that all variables have their own scopes. 
 For example, in this case, the scope of the variable `name` is limited to the `helloGenerator` function. We cannot use it outside the body of this function:
 ```js
 function helloGenerator(name){
