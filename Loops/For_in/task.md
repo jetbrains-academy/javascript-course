@@ -13,7 +13,7 @@ let car = {
 Using the `for..in` loop, you can walk over all keys of this object, and get the values of those keys:
 
 ```js
-for (key in car) {
+for (const key in car) {
     console.log(key, ":", car[key]);
 }
 // Prints
@@ -36,7 +36,7 @@ let car = {
     "3": "8"
 };
 
-for (key in car) {
+for (const key in car) {
     console.log(key, ":", car[key]);
 }
 // Prints
@@ -48,6 +48,25 @@ for (key in car) {
 ```
 
 You can read more about the `for..in` loop [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in).
+
+<div class="hint">
+
+  Note that if you declare a `key` variable in a loop without the `let` or `const` modifier, its scope will be wider than the loop. This is not always the desired behavior.
+  ```javascript
+  for (key in car) {
+    // ...
+  }
+  console.log(key) // "owner"
+  ```
+  Most often `const` is used here:
+  ```javascript
+  for (const key in car) {
+    // ...
+  }
+  console.log(key) // ReferenceError: key is not defined
+  ```
+</div>
+
 
 ### Task
 A `medals` object containing information about countries (key) and the number of medals received at the Olympics (value) is given.

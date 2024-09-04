@@ -6,7 +6,7 @@ Use `for..of` to iterate over **data structures**, and `for..in` to iterate over
 ```js
 let colors = ["red", "blue", "green", "yellow"]
 
-for(const color of colors) {
+for (const color of colors) {
     console.log(color);
 }
 

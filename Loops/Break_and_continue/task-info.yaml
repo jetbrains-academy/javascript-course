@@ -17,8 +17,7 @@ files:
         placeholder_text: // find the maximum among the stored numbers and return it as
           the result
       - offset: 401
-        length: 149
-        placeholder_text: ""
-        is_visible: false
+        length: 148
+        placeholder_text: // you can use arrayMax function from the previous task
   - name: test/test.js
     visible: false
