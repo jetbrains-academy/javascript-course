@@ -1,0 +1,15 @@
+type: output
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 9
+        length: 7
+        placeholder_text: /* put function name here */
+      - offset: 25
+        length: 49
+        placeholder_text: // add function body
+  - name: test/output.txt
+    visible: false
+  - name: test/input.txt
+    visible: false
