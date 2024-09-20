@@ -1,0 +1,13 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 51
+        length: 11
+        placeholder_text: // declare the summarizer variable here
+      - offset: 63
+        length: 17
+        placeholder_text: // assign the value of the `add` variable to summarizer
+  - name: test/test.js
+    visible: false
