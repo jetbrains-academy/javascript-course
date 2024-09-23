@@ -18,6 +18,6 @@ files:
           the result
       - offset: 401
         length: 148
-        placeholder_text: // you can use arrayMax function from the previous task
+        placeholder_text: // you can use the arrayMax function from the previous task
   - name: test/test.js
     visible: false

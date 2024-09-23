@@ -33,7 +33,7 @@ test('Check last negatives', () => {
         ];
         expect(maxNegRow(matrix)).toBe(-1)
     } catch (e){
-        customizeError(e, 'Wrong answer when only last elements in row are negative', true)
+        customizeError(e, 'Wrong answer when only the last elements in the row are negative', true)
         throw e
     }
 });

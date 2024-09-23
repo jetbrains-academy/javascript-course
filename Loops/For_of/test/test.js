@@ -32,7 +32,7 @@ test('Check all equals', () => {
     try {
         expect(arrayMax([-1, -1, -1])).toBe(-1)
     } catch (e){
-        customizeError(e, 'Wrong answer when all elements are equals', true)
+        customizeError(e, 'Wrong answer when all elements are equal', true)
         throw e
     }
 });

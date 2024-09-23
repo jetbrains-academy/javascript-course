@@ -1,5 +1,5 @@
-Before we said that the loop condition is responsible for how many times the loop will be executed and when it will terminate. 
-Actually, there are two keywords that can change the behavior of the loop a bit: `continue` and `break`.
+Previously, we mentioned that the loop condition determines how many times the loop will execute and when it will terminate.
+However, there are two keywords that can slightly alter the behavior of the loop: `continue` and `break`.
 
 When a `continue` statement is executed, the current iteration of the loop is immediately interrupted and the loop moves on to the next iteration.
 
@@ -13,7 +13,7 @@ for(let i = 1; i < 10; i++) {
 // Prints 1 2 4 5 7 8
 ```
 
-`break`, on the other hand, immediately stops the loop execution. The current iteration is also terminated immediately.
+`break`, on the other hand, immediately stops the loop, terminating the current iteration as well.
 
 ```js
 for(let i = 1; i < 10; i++) {
@@ -25,7 +25,7 @@ for(let i = 1; i < 10; i++) {
 // Prints 1 2
 ```
 
-If loops are nested within each other, `break` and `continue` apply only to the loop in which they were called.
+If loops are nested, `break` and `continue` apply only to the loop in which they are called.
 
 ```js
 matrix = [
@@ -46,23 +46,22 @@ for (const row of matrix){
 // Prints: 1 7
 ```
 
-Note that the same effect can be obtained without using these operators. 
-To do this, you can use conditional statements or/and also change the loop condition. 
-Excessive use of `break` and `continue` can make your programs difficult to read, so use them when you really need to.
+Note that the same effect can be achieved without using these operators.
+You can do this by using conditional statements or modifying the loop condition. 
+Excessive use of `break` and `continue` can make your programs harder to read, so use them only when necessary.
 
-You can read more about [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) 
-and [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) by yourself.
+You can read more about [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) and [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) on your own.
 
 ### Task
-Let's practice working with two-dimensional arrays. A two-dimensional array `matrix` is given. 
+Let's practice working with two-dimensional arrays. A two-dimensional array, `matrix`, is given. 
 Implement a function `maxNegRow` that:
-- Finds the first negative element for each row of the `matrix`. 
+- Finds the first negative element in each row of the `matrix`. 
 - Then finds the maximum among all these elements.
 
-It is guaranteed that there is always at least one negative element in a row.
+It is guaranteed that there is at least one negative element in each row.
 
 <div class="hint">
-  Use <code>break</code> to interrupt the loop of searching for negative elements as soon as you find the first one.
+  Use <code>break</code> exit the loop as soon as you find the first negative element.
 </div>
 
 <div class="hint">

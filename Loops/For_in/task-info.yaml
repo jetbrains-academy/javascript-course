@@ -9,7 +9,8 @@ files:
         placeholder_text: /* add parameters here */
       - offset: 110
         length: 100
-        placeholder_text: // use for..in loop to iterate over the keys of the medals object
+        placeholder_text: // use a for..in loop to iterate over the keys of the medals
+          object
       - offset: 216
         length: 13
         placeholder_text: // don't forget to return the result

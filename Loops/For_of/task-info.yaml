@@ -6,10 +6,10 @@ files:
     placeholders:
       - offset: 30
         length: 21
-        placeholder_text: "// save array[0] element to maxVal variable"
+        placeholder_text: "// save the array[0] element to the maxVal variable"
       - offset: 57
         length: 84
-        placeholder_text: // compare all elements with maxVal
+        placeholder_text: // compare all elements to maxVal
       - offset: 147
         length: 13
         placeholder_text: // don't forget to return the result

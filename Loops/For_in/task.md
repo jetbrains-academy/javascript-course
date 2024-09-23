@@ -1,4 +1,4 @@
-The next loop we'll look at is `for..in`. Despite the similarity in the name, it is quite different from the `for` loop.
+The next loop we'll look at is `for..in`. Despite the similarity in name, it is quite different from the `for` loop.
 
 In the [Data Structures lesson](course://Data Structures), we learned how to work with object properties. Let's take the object declaration from [this](course://Data Structures/Working with properties) example:
 
@@ -10,7 +10,7 @@ let car = {
 };
 ```
 
-Using the `for..in` loop, you can walk over all keys of this object, and get the values of those keys:
+Using the `for..in` loop, you can iterate over all the keys of this object and retrieve their values:
 
 ```js
 for (const key in car) {
@@ -22,10 +22,10 @@ for (const key in car) {
 // owner : Jacob
 ```
 
-At each iteration of the loop, `key` will take next key name of the `car` object. In fact, `key` is a string.
+At each iteration of the loop, `key` will take the next key name of the `car` object. In fact, `key` is a string.
 
-You may have noticed that the keys were gotten in the same order in which they were declared. But this is not always the case. 
-For example, if there is a non-negative integers among the keys, they will be traversed first in ascending order:
+You may have noticed that the keys were retrieved in the same order they were declared. However, this is not always the case.
+For example, if there are non-negative integers among the keys, they will be traversed first in ascending order:
 
 ```js
 let car = {
@@ -51,14 +51,14 @@ You can read more about the `for..in` loop [here](https://developer.mozilla.org/
 
 <div class="hint">
 
-  Note that if you declare a `key` variable in a loop without the `let` or `const` modifier, its scope will be wider than the loop. This is not always the desired behavior.
+  Note that if you declare the `key` variable in a loop without the `let` or `const` modifier, its scope will extend beyond the loop. This is not always the desired behavior.
   ```javascript
   for (key in car) {
     // ...
   }
   console.log(key) // "owner"
   ```
-  Most often `const` is used here:
+  Most often, `const` is used here:
   ```javascript
   for (const key in car) {
     // ...
@@ -67,12 +67,11 @@ You can read more about the `for..in` loop [here](https://developer.mozilla.org/
   ```
 </div>
 
-
 ### Task
-A `medals` object containing information about countries (key) and the number of medals received at the Olympics (value) is given.
+A `medals` object, containing information about countries (as keys) and the number of medals they received at the Olympics (as values), is given.
 
-Implement the `medalsFilter` function that takes two arguments:
-- Object `medals`.
-- Number `count`. 
+Implement the `medalsFilter` function, which takes two arguments:
+- An object `medals`.
+- A number `count`. 
 
-As a result, the function should return an array of the names of countries (keys of the `medals` object) that have received strictly more medals than `count`.
+As a result, the function should return an array of country names (the keys of the `medals` object) that have received strictly more medals than `count`.
