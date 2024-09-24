@@ -61,7 +61,7 @@ Implement a function `maxNegRow` that:
 It is guaranteed that there is at least one negative element in each row.
 
 <div class="hint">
-  Use <code>break</code> exit the loop as soon as you find the first negative element.
+  Use <code>break</code> to exit the loop as soon as you find the first negative element.
 </div>
 
 <div class="hint">
