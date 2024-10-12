@@ -1,0 +1,27 @@
+type: edu
+custom_name: Primitive Types
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 244
+        length: 2
+        placeholder_text: /* TODO */
+      - offset: 345
+        length: 15
+        placeholder_text: /* TODO */
+      - offset: 460
+        length: 4
+        placeholder_text: /* TODO */
+      - offset: 567
+        length: 9
+        placeholder_text: /* TODO */
+      - offset: 676
+        length: 4
+        placeholder_text: /* TODO */
+      - offset: 779
+        length: 16
+        placeholder_text: /* TODO */
+  - name: test/test.js
+    visible: false
+    propagatable: false
