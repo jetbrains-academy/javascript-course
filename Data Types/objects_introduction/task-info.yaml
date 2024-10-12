@@ -1,0 +1,18 @@
+type: edu
+custom_name: Objects Introduction
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 16
+        length: 23
+        placeholder_text: /* Add manufacturer property and assign a value to it */
+      - offset: 44
+        length: 17
+        placeholder_text: /* Add model property and assign a value to it */
+      - offset: 66
+        length: 10
+        placeholder_text: /* Add year property and assign a value to it */
+  - name: test/test.js
+    visible: false
+    propagatable: false
