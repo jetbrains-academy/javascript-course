@@ -5,6 +5,7 @@
     "rewire": "^7.0.0"
   },
 
+  "type": "commonjs",
   "scripts": {
     "test": "jest"
   },
