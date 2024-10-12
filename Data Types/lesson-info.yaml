@@ -1,0 +1,10 @@
+content:
+  - dynamic_and_weak_typing
+  - typeof_operator
+  - primitive_types
+  - objects_introduction
+  - more_on_objects_properties
+  - builld_in_objects
+  - builld_in_objects_number
+  - built_in_objects_array_and_date
+  - type_coercion
