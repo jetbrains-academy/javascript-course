@@ -1,0 +1,12 @@
+type: edu
+custom_name: Dynamic and Weak typing
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 115
+        length: 9
+        placeholder_text: // perform addition operation on string and number
+  - name: test/test.js
+    visible: false
+    propagatable: false
