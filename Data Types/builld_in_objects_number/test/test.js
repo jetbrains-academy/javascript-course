@@ -1,15 +1,65 @@
-/**
- * Imports task file in order to use functions declared in it
- * @param f file name or its relative path to task
- */
-function import_task_file(f) {
-    const path = require("path");
-    const fs = require("fs");
-    eval.apply(global, [fs.readFileSync(path.join(__dirname, "..",  f)).toString()]);
-}
+const analyzeNumber = require('../task');
+const rewire = require("rewire");
+const utils = rewire('#utils/utils.js')
+customizeError = utils.__get__('customizeError')
 
-//todo: replace this with an actual test
-test('adds 1 + 2 to equal 3', () => {
-    import_task_file("task.js");
-    expect(sum(1, 2)).toBe(3);
+let consoleOutput = [];
+const originalConsoleLog = console.log;
+const expectedOutput = [
+    "String representation: 42.5",
+    "Is integer: false",
+    "Parsed integer: 42"
+];
+
+
+beforeAll(() => {
+    console.log = jest.fn((...args) => {
+        consoleOutput.push(args.join(' '));
+        originalConsoleLog(...args);
+    });
 });
+
+afterAll(() => {
+    console.log = originalConsoleLog;
+});
+
+beforeEach(() => {
+    consoleOutput = [];
+});
+
+test('Check if string representation is implemented correctly', () => {
+    analyzeNumber(42.5);
+
+    try {
+        expect(consoleOutput[0]).toEqual(expectedOutput[0]);
+    }
+    catch (e) {
+        customizeError(e, 'Check if string representation is implemented correctly', true)
+        throw e
+    }
+});
+
+test('Check if the integer check is implemented correctly', () => {
+    analyzeNumber(42.5);
+
+    try {
+        expect(consoleOutput[1]).toEqual(expectedOutput[1]);
+    }
+    catch (e) {
+        customizeError(e, 'Check if the integer check is implemented correctly', true)
+        throw e
+    }
+});
+
+test('Check if parsed integer is implemented correctly', () => {
+    analyzeNumber(42.5);
+
+    try {
+        expect(consoleOutput[2]).toEqual(expectedOutput[2]);
+    }
+    catch (e) {
+        customizeError(e, 'Check if parsed integer is implemented correctly', true)
+        throw e
+    }
+});
+
