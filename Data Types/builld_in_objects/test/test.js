@@ -1,47 +1,77 @@
-const rewire = require('rewire');
+const analyzeString = require('../task');
+const rewire = require("rewire");
 const utils = rewire('#utils/utils.js')
 customizeError = utils.__get__('customizeError')
-let testedFunction;
+
 let consoleOutput = [];
-const mockedLog = output => consoleOutput.push(output);
+const originalConsoleLog = console.log;
+const expectedOutput = [
+    "Length: 33",
+    "Uppercase: JAVASCRIPT IS AN AMAZING LANGUAGE",
+    "Replaced 'a' with '@': J@v@Script is @n @m@zing l@ngu@ge",
+    "Array of words: JavaScript,is,an,amazing,language"
+];
+
 
 beforeAll(() => {
-    try {
-        const task = rewire('../task');
-        testedFunction = task.__get__('analyzeString')
-    }
-    catch (e) {
-        customizeError(e, 'Check if you have defined analyzeString function', true)
-        throw e
-    }
-    try {
-        consoleOutput = [];
-        console.log = mockedLog;
-    } catch (e) {
-        customizeError(e, 'Check if you have defined the car object', true)
-        throw e
-    }
-
+    console.log = jest.fn((...args) => {
+        consoleOutput.push(args.join(' '));
+        originalConsoleLog(...args);
+    });
 });
 
 afterAll(() => {
-    console.log = console.__proto__.log; // Restore console.log
+    console.log = originalConsoleLog;
 });
 
-test('test if there is length', () => {
-    const task = rewire('../task'); // Rewire the task module to capture its console output
-    task.__get__('analyzeString')("JavaScript is an amazing language");
-    const actualOutput = console["log"]
-    const expectedOutput = [
-        "Length: 30",
-        "Uppercase: JAVASCRIPT IS AN AMAZING LANGUAGE",
-        "Replaced 'a' with '@': J@v@Script is @n @m@zing l@ngu@ge",
-        "Array of words: [ 'JavaScript', 'is', 'an', 'amazing', 'language' ]"
-    ];
+beforeEach(() => {
+    consoleOutput = [];
+});
+
+test('Check if the length is implemented correctly', () => {
+    analyzeString("JavaScript is an amazing language");
+
     try {
-        expect(consoleOutput).toContain("Length: 30");
-    } catch (e){
-        customizeError(e, 'Check if you have defined the manufacturer property', true)
+        expect(consoleOutput[0]).toEqual(expectedOutput[0]);
+    }
+    catch (e) {
+        customizeError(e, 'Check if the length is implemented correctly', true)
+        throw e
+    }
+});
+
+test('Check if the Uppercase is implemented correctly', () => {
+    analyzeString("JavaScript is an amazing language");
+
+    try {
+        expect(consoleOutput[1]).toEqual(expectedOutput[1]);
+    }
+    catch (e) {
+        customizeError(e, 'Check if the Uppercase is implemented correctly', true)
+        throw e
+    }
+});
+
+test('Check if replace a with @ is implemented correctly', () => {
+    analyzeString("JavaScript is an amazing language");
+
+    try {
+        expect(consoleOutput[2]).toEqual(expectedOutput[2]);
+    }
+    catch (e) {
+        customizeError(e, 'Check if replace a with @ is implemented correctly', true)
+        throw e
+    }
+});
+
+test('Check if the word array is implemented correctly', () => {
+    analyzeString("JavaScript is an amazing language");
+
+    try {
+        expect(consoleOutput[3]).toEqual(expectedOutput[3]);
+    }
+    catch (e) {
+        customizeError(e, 'Check if the word array is implemented correctly', true)
         throw e
     }
 });

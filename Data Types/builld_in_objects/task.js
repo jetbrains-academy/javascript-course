@@ -17,7 +17,7 @@ function analyzeString(str) {
 }
 
 // Example usage
-analyzeString("JavaScript is an amazing language");
+// analyzeString("JavaScript is an amazing language");
 
 //The following code exports the car object for the test to access it, please do not modify it
 module.exports = analyzeString;
