@@ -1,0 +1,17 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 38
+        length: 4
+        placeholder_text: // initialize with zero
+      - offset: 48
+        length: 69
+        placeholder_text: // add the value of each array element to the sum variable using
+          a `for` loop
+      - offset: 123
+        length: 11
+        placeholder_text: // don't forget to return the result
+  - name: test/test.js
+    visible: false

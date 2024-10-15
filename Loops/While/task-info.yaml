@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 32
+        length: 7
+        placeholder_text: /* add a condition here */
+      - offset: 51
+        length: 85
+        placeholder_text: // implement the Euclidean algorithm
+      - offset: 147
+        length: 9
+        placeholder_text: // return the result
+  - name: test/test.js
+    visible: false
