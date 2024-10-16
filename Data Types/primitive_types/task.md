@@ -44,8 +44,10 @@ console.log(typeof symbol); // "symbol"
 </div>
 
 ### Task
-Declare a variable value and assign it different primitive types of values (`number`, `string`, `boolean`, `undefined`, `null`, and `symbol`). Use the typeof operator to print the type of each value to the console.
-<div class="hint" title="Type of null"> Remember that `typeof` returns "object" for `null`, which can be misleading. </div>
+Declare a variable value and assign it different primitive types of values
+(`number`, `string`, `boolean`, `undefined`, `null`, and `symbol`).
+Use the typeof operator to print the type of each value to the console.
+Remember that `typeof` returns "object" for `null`, which can be misleading.
 <div class="hint" title="Want to know more?">
 For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values">official JavaScript documentation on primitive types</a>.
 </div>

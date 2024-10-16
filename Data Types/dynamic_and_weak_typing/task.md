@@ -1,5 +1,3 @@
-# Dynamic and Weak Typing
-
 ### Dynamic Typing
 JavaScript is dynamically typed, meaning that variables do not have a fixed type. The type of a variable is determined at runtime based on the value assigned to it. This allows for greater flexibility, as the same variable can hold different types of values at different times.
 
@@ -13,9 +11,11 @@ variable = "Hello, world!"; // variable is now a string
 console.log(typeof variable); // "string"
 ```
 <div class="hint" title="Advantages of Dynamic Typing">
-1. <b>Flexibility</b>: Variables can hold values of any type, which allows for more flexible and reusable code.
-2. <b>Ease of Use</b>: Less boilerplate code is required since you don't need to declare variable types explicitly.
-3. <b>Rapid Prototyping</b>: Faster development and prototyping as you can quickly change variable types without modifying the code structure.
+<ul>
+<li><b>Flexibility</b>: Variables can hold values of any type, which allows for more flexible and reusable code.</li>
+<li><b>Ease of Use</b>: Less boilerplate code is required since you don't need to declare variable types explicitly.</li>
+<li><b>Rapid Prototyping</b>: Faster development and prototyping as you can quickly change variable types without modifying the code structure.</li>
+</ul>
 </div>
 
 <div class="hint" title="Disadvantages of Dynamic Typing">
@@ -27,7 +27,7 @@ console.log(typeof variable); // "string"
 </div>
 
 ### Weak Typing
-JavJavaScript is weakly typed, which means that it allows implicit type conversions between different types. This can lead to unexpected behavior if not carefully managed. For example, adding a number and a string will result in string concatenation rather than arithmetic addition.
+JavaScript is weakly typed, which means that it allows implicit type conversions between different types. This can lead to unexpected behavior if not carefully managed. For example, adding a number and a string will result in string concatenation rather than arithmetic addition.
 
 
 ```javascript
@@ -60,5 +60,5 @@ console.log(sum);
 Declare a variable `result` and assign it the value of the sum of the string `"10"` and the number `5`. Print the result to the console.
 
 <div class="hint" title="Hint for Task">
-\Remember that adding a string and a number in JavaScript results in string concatenation. Ensure you understand the difference between implicit and explicit type conversion.
+Remember that adding a string and a number in JavaScript results in string concatenation. Ensure you understand the difference between implicit and explicit type conversion.
 </div>

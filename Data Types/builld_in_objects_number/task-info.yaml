@@ -10,8 +10,8 @@ files:
       - offset: 214
         length: 22
         placeholder_text: /* TODO */
-      - offset: 372
-        length: 28
+      - offset: 397
+        length: 8
         placeholder_text: /* TODO */
   - name: test/test.js
     visible: false

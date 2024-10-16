@@ -8,8 +8,7 @@ const originalConsoleLog = console.log;
 const expectedOutput = [
     "Length: 33",
     "Uppercase: JAVASCRIPT IS AN AMAZING LANGUAGE",
-    "Replaced 'a' with '@': J@v@Script is @n @m@zing l@ngu@ge",
-    "Array of words: JavaScript,is,an,amazing,language"
+    "Replaced 'a' with '@': J@v@Script is @n @m@zing l@ngu@ge"
 ];
 
 
@@ -60,18 +59,6 @@ test('Check if replace a with @ is implemented correctly', () => {
     }
     catch (e) {
         customizeError(e, 'Check if replace a with @ is implemented correctly', true)
-        throw e
-    }
-});
-
-test('Check if the word array is implemented correctly', () => {
-    analyzeString("JavaScript is an amazing language");
-
-    try {
-        expect(consoleOutput[3]).toEqual(expectedOutput[3]);
-    }
-    catch (e) {
-        customizeError(e, 'Check if the word array is implemented correctly', true)
         throw e
     }
 });

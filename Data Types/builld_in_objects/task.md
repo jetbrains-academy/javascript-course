@@ -8,7 +8,7 @@ The `String` object is used to work with text. It provides many methods to manip
 
 <div class="hint" title="Some String methods">
 
-Use the 'String' object methods to manipulate and work with text. Here are some commonly used methods:
+Use the `String object methods to manipulate and work with text. Here are some commonly used methods:
 
 - <code>length</code>: Returns the length of the string.
 - <code>toUpperCase()</code>: Converts the string to uppercase.
@@ -28,12 +28,12 @@ console.log(str.toUpperCase()); // "HELLO, WORLD!"
 
 
 ### Task
-Create a function named analyzeString that takes a string as an argument and performs the following operations:  
+Complete the code of a function named analyzeString that takes a string as an argument and performs the following operations:  
 Returns the length of the string.
 Converts the string to uppercase.
 Replaces all occurrences of the letter 'a' with '@'.
-Splits the string into an array of words based on spaces.
-Print the results of each operation to the console.  
+Print the results of each operation to the console.
+We will dive deeper into the `function`concept in [one of the following lessons](course://Functions/Introduction%20to%20functions), now just focus on filling the blanks and printing the specified information. Running the code will result in the function being executed. 
 <div class="hint" title="Do not reinvent the wheel">
 Remember to use the `String` object methods to manipulate and work with text. </div>
 

@@ -1,5 +1,8 @@
 function coerceTypes(a, b) {
-    return Number(a) + Number(b);
+    const coercedSum = Number(a) + Number(b);
+    //The following code returns the variable coercedSum,
+    //when the function is called for displaying the result and testing, please do not modify it
+    return coercedSum
 }
 
 console.log(coerceTypes('5', 3)); // 8

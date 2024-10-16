@@ -10,10 +10,6 @@ function analyzeString(str) {
     // Replace all occurrences of 'a' with '@'
     let replacedStr = str.replace(/a/g, '@');
     console.log("Replaced 'a' with '@':", replacedStr);
-
-    // Split the string into an array of words
-    let wordsArray = str.split(' ');
-    console.log("Array of words:", wordsArray);
 }
 
 // Example usage

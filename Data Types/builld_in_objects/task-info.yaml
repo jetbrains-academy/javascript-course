@@ -13,9 +13,6 @@ files:
       - offset: 328
         length: 23
         placeholder_text: /* TODO */
-      - offset: 477
-        length: 15
-        placeholder_text: /* TODO */
   - name: test/test.js
     visible: false
     propagatable: false

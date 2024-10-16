@@ -1,5 +1,3 @@
-# Typeof Operator in JavaScript
-
 ### Understanding the `typeof` Operator
 The `typeof` operator in JavaScript is used to determine the type of a given variable or expression. It returns a string indicating the type of the operand.
 
