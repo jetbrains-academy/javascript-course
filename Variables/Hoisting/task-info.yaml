@@ -1,4 +1,4 @@
-type: output
+type: edu
 files:
   - name: task.js
     visible: true
@@ -21,7 +21,6 @@ files:
           
           let b
         is_visible: false
-  - name: test/output.txt
+  - name: test/test.js
     visible: false
-  - name: test/input.txt
-    visible: false
+    propagatable: false

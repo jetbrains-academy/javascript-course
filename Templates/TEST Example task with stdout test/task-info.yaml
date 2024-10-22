@@ -1,6 +1,0 @@
-type: output
-files:
-  - name: task.js
-    visible: true
-  - name: test/output.txt
-    visible: false

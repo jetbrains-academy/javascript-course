@@ -7,7 +7,7 @@ const consoleOutput = [];
 
 beforeAll(() => {
     let originalConsoleLog = console["log"];
-    const storeLog = (...inputs) => consoleOutput.push(inputs.join(' '));
+    const storeLog = inputs => consoleOutput.push(inputs);
     console.log = jest.fn(storeLog);
 
     rewire('../task');
@@ -18,9 +18,8 @@ beforeAll(() => {
 
 test('capture console output of task.js', () => {
     try {
-        console.log(">>>><<<<") // example that console output is works again
         joinedOutput = consoleOutput.join('\n');
-        expect(joinedOutput).toEqual("Some text one 2nd arg\nSome text two");
+        expect(joinedOutput).toEqual("JavaScript");
     } catch (e){
         customizeError(e, 'Output is wrong', true)
         throw e

@@ -1,4 +1,4 @@
-type: output
+type: edu
 files:
   - name: task.js
     visible: true
@@ -6,7 +6,6 @@ files:
       - offset: 93
         length: 12
         placeholder_text: // Make change here
-  - name: test/output.txt
+  - name: test/test.js
     visible: false
-  - name: test/input.txt
-    visible: false
+    propagatable: false

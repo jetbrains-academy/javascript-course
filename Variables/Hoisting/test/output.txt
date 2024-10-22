@@ -1,4 +1,0 @@
-[func] a: 10
-[func] b: 20
-[global] a: 10
-[global] b: 20
