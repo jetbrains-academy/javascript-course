@@ -4,13 +4,13 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 83
+      - offset: 94
         length: 11
         placeholder_text: /* TODO */
-      - offset: 194
+      - offset: 195
         length: 18
         placeholder_text: /* TODO */
-      - offset: 328
+      - offset: 319
         length: 23
         placeholder_text: /* TODO */
   - name: test/test.js

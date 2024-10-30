@@ -1,11 +1,13 @@
 const rewire = require('rewire');
 const utils = rewire('#utils/utils.js')
 customizeError = utils.__get__('customizeError')
+import_variable = utils.__get__('import_variable')
+task = rewire('../task.js');
 let car;
 
 beforeAll(() => {
     try {
-        car = require('../task.js');
+        car = import_variable(task, 'car');
         expect(car).toBeDefined();
         expect(typeof car).toBe('object');
     } catch (e) {

@@ -1,7 +1,7 @@
-const analyzeString = require('../task');
 const rewire = require("rewire");
+const console = require("node:console");
 const utils = rewire('#utils/utils.js')
-customizeError = utils.__get__('customizeError')
+const customizeError = utils.__get__('customizeError') // Added import_variable
 
 let consoleOutput = [];
 const originalConsoleLog = console.log;
@@ -13,23 +13,19 @@ const expectedOutput = [
 
 
 beforeAll(() => {
-    console.log = jest.fn((...args) => {
-        consoleOutput.push(args.join(' '));
-        originalConsoleLog(...args);
-    });
+    const storeLog = inputs => consoleOutput.push(inputs);
+    console.log = jest.fn(storeLog);
+
+    rewire('../task');
+    require('../task');
 });
 
 afterAll(() => {
     console.log = originalConsoleLog;
 });
 
-beforeEach(() => {
-    consoleOutput = [];
-});
 
 test('Check if the length is implemented correctly', () => {
-    analyzeString("JavaScript is an amazing language");
-
     try {
         expect(consoleOutput[0]).toEqual(expectedOutput[0]);
     }
@@ -40,8 +36,6 @@ test('Check if the length is implemented correctly', () => {
 });
 
 test('Check if the Uppercase is implemented correctly', () => {
-    analyzeString("JavaScript is an amazing language");
-
     try {
         expect(consoleOutput[1]).toEqual(expectedOutput[1]);
     }
@@ -52,8 +46,6 @@ test('Check if the Uppercase is implemented correctly', () => {
 });
 
 test('Check if replace a with @ is implemented correctly', () => {
-    analyzeString("JavaScript is an amazing language");
-
     try {
         expect(consoleOutput[2]).toEqual(expectedOutput[2]);
     }

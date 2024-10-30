@@ -1,36 +1,31 @@
-const analyzeDate = require('../task');
 const rewire = require("rewire");
+const console = require("node:console");
 const utils = rewire('#utils/utils.js')
 customizeError = utils.__get__('customizeError')
 
 let consoleOutput = [];
 const originalConsoleLog = console.log;
+let date = new Date();
 const expectedOutput = [
     "",
-    "Year of the given date: 2023",
-    "Human-readable date string: Mon Oct 09 2023",
+    "Year of the given date: " + date.getFullYear(),
+    "Human-readable date string: "+  date.toDateString(),
 
 ];
 
-
 beforeAll(() => {
-    console.log = jest.fn((...args) => {
-        consoleOutput.push(args.join(' '));
-        originalConsoleLog(...args);
-    });
+    const storeLog = inputs => consoleOutput.push(inputs);
+    console.log = jest.fn(storeLog);
+
+    rewire('../task');
+    require('../task');
 });
 
 afterAll(() => {
     console.log = originalConsoleLog;
 });
 
-beforeEach(() => {
-    consoleOutput = [];
-});
-
 test('Check if string representation is implemented correctly', () => {
-    analyzeDate(new Date('2023-10-09'));
-
     try {
         expect(consoleOutput[0]).toEqual("Current date and time: " + new Date().toString());
     }
@@ -41,8 +36,6 @@ test('Check if string representation is implemented correctly', () => {
 });
 
 test('Check if the year is implemented correctly', () => {
-    analyzeDate(new Date('2023-10-09'));
-
     try {
         expect(consoleOutput[1]).toEqual(expectedOutput[1]);
     }
@@ -53,8 +46,6 @@ test('Check if the year is implemented correctly', () => {
 });
 
 test('Check if human-readable format is implemented correctly', () => {
-    analyzeDate(new Date('2023-10-09'));
-
     try {
         expect(consoleOutput[2]).toEqual(expectedOutput[2]);
     }

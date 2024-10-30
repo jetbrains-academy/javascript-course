@@ -1,4 +1,3 @@
-const analyzeNumber = require('../task');
 const rewire = require("rewire");
 const utils = rewire('#utils/utils.js')
 customizeError = utils.__get__('customizeError')
@@ -13,23 +12,18 @@ const expectedOutput = [
 
 
 beforeAll(() => {
-    console.log = jest.fn((...args) => {
-        consoleOutput.push(args.join(' '));
-        originalConsoleLog(...args);
-    });
+    const storeLog = inputs => consoleOutput.push(inputs);
+    console.log = jest.fn(storeLog);
+
+    rewire('../task');
+    require('../task');
 });
 
 afterAll(() => {
     console.log = originalConsoleLog;
 });
 
-beforeEach(() => {
-    consoleOutput = [];
-});
-
 test('Check if string representation is implemented correctly', () => {
-    analyzeNumber(42.5);
-
     try {
         expect(consoleOutput[0]).toEqual(expectedOutput[0]);
     }
@@ -40,8 +34,6 @@ test('Check if string representation is implemented correctly', () => {
 });
 
 test('Check if the integer check is implemented correctly', () => {
-    analyzeNumber(42.5);
-
     try {
         expect(consoleOutput[1]).toEqual(expectedOutput[1]);
     }
@@ -52,8 +44,6 @@ test('Check if the integer check is implemented correctly', () => {
 });
 
 test('Check if parsed integer is implemented correctly', () => {
-    analyzeNumber(42.5);
-
     try {
         expect(consoleOutput[2]).toEqual(expectedOutput[2]);
     }
