@@ -18,9 +18,11 @@ beforeAll(() => {
 
 test('capture console output of task.js', () => {
     try {
-        console.log(">>>><<<<") // example that console output is works again
         joinedOutput = consoleOutput.join('\n');
-        expect(joinedOutput).toEqual("Some text one 2nd arg\nSome text two");
+        expect(joinedOutput).toEqual("[func] a: 10\n" +
+                                              "[func] b: 20\n" +
+                                              "[global] a: 10\n" +
+                                              "[global] b: 20");
     } catch (e){
         customizeError(e, 'Output is wrong', true)
         throw e

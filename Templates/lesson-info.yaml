@@ -1,4 +1,3 @@
 content:
-  - TEST Example task with stdout test
   - TEST Example task with jest lib test
   - TEST Example task jest lib console capture
