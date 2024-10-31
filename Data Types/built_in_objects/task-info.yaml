@@ -11,7 +11,7 @@ files:
         length: 18
         placeholder_text: /* TODO */
       - offset: 319
-        length: 23
+        length: 25
         placeholder_text: /* TODO */
   - name: test/test.js
     visible: false

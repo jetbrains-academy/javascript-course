@@ -1,5 +1,5 @@
 Objects allow storing key-based values, but often we need data storage of a slightly different kind. 
-For example, in the form of an ordered sequence. Such storage is called an array. We have briefly touched this topic while looking at the built-in objects, but let's take a deeper dive. The easiest way to create an empty array is:
+For example, in the form of an ordered sequence. Such storage is called an array. The easiest way to create an empty array is:
 ```javascript
 let colors = []
 ```

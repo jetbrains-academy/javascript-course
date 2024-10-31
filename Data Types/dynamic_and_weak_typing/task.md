@@ -1,4 +1,3 @@
-### Dynamic Typing
 JavaScript is dynamically typed, meaning that variables do not have a fixed type. The type of a variable is determined at runtime based on the value assigned to it. This allows for greater flexibility, as the same variable can hold different types of values at different times.
 
 
@@ -44,7 +43,7 @@ console.log(sum);
 <div class="hint" title="Advantages of Weak Typing">
 <ul>
 <li><b>Convenience</b>: Implicit type conversions can make code more concise and easier to write, especially for simple operations.</li>
-<li><b>Interoperability</b>: Easier to work with different types of data without needing explicit conversions, which can be useful in web development.</li>
+<li><b>Interoperability</b>: It is easier to work with different types of data without needing explicit conversions, which can be useful in web development.</li>
 </ul>
 </div>
 

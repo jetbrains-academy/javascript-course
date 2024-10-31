@@ -1,8 +1,8 @@
 Previously, we have worked with variables of simple data types, such as numbers and strings. 
-These are called _primitives_. However, we have briefly talked about more complex data types, such as objects. Let us tak a look at them again, now in more detail.
+These are called _primitives_. However, we briefly discussed more complex data types, such as objects. Let's take a closer look at them now, in more detail.
 An object can be thought of as a box with files stored inside. We will call the file name the "property name" and what is stored in the file the "value".
 
-Let's look again at the simplest task from the previous lesson: creating an empty object with no properties at all. We can do this in two ways:
+Let's revisit the simplest task from the previous lesson: creating an empty object with no properties. We can do this in two ways:
 ```javascript
 // Using the keyword "new"
 let car = new Object();

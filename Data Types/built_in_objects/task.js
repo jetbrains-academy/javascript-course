@@ -8,5 +8,5 @@ let upperCaseStr = str.toUpperCase();
 console.log("Uppercase: " + upperCaseStr);
 
 // Replace all occurrences of 'a' with '@'
-let replacedStr = str.replace(/a/g, '@');
+let replacedStr = str.replaceAll('a', '@');
 console.log("Replaced 'a' with '@': " + replacedStr);

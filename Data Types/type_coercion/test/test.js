@@ -1,59 +1,43 @@
-const coerceTypes = require('../task');
-const rewire = require("rewire");
+const rewire = require('rewire');
+const task = rewire('../task');
 const utils = rewire('#utils/utils.js')
 customizeError = utils.__get__('customizeError')
-
-let consoleOutput = [];
-const originalConsoleLog = console.log;
+import_variable = utils.__get__('import_variable')
 
 
 beforeAll(() => {
-    console.log = jest.fn((...args) => {
-        consoleOutput.push(args.join(' '));
-        originalConsoleLog(...args);
-    });
+    a = import_variable(task, 'a');
+    b = import_variable(task, 'b');
+    sum = import_variable(task, 'sum');
 });
 
-afterAll(() => {
-    console.log = originalConsoleLog;
-});
-
-beforeEach(() => {
-    consoleOutput = [];
-});
-
-test('Check if string and number coercion is implemented correctly', () => {
-    actualResult = coerceTypes('5', 3);
-    expectedResult =8;
+test('Check a and b types', () => {
     try {
-        expect(actualResult).toEqual(expectedResult);
+        expect(typeof(a)).toEqual('string');
+        expect(typeof(b)).toEqual('string');
     }
     catch (e) {
-        customizeError(e, 'Check if the coerceTypes is implemented correctly', true)
+        customizeError(e, 'Do not change declarations of variables a and b', true)
         throw e
     }
 });
 
-test('Check if string to number coercion  is implemented correctly', () => {
-    actualResult = coerceTypes('5', '3');
-    expectedResult = 8;
+test('Check sum type', () => {
     try {
-        expect(actualResult).toEqual(expectedResult);
+        expect(typeof(sum)).toEqual('number');
     }
     catch (e) {
-        customizeError(e, 'Check if the coerceTypes is implemented correctly', true)
+        customizeError(e, 'Variable sum should be a number', true)
         throw e
     }
 });
 
-test('Check if bool coercion is implemented correctly', () => {
-    actualResult = coerceTypes(true, true);
-    expectedResult = 2;
+test('Check sum value', () => {
     try {
-        expect(actualResult).toEqual(expectedResult);
+        expect(sum).toEqual(4355055123);
     }
     catch (e) {
-        customizeError(e, 'Check if coerceTypes is implemented correctly', true)
+        customizeError(e, 'Convert first a and b to numbers before addition', true)
         throw e
     }
 });

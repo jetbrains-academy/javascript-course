@@ -66,7 +66,7 @@ test('check if object is printed', () => {
     }
 });
 
-test('check if object is printed', () => {
+test('check if symbol is printed', () => {
     try {
         joinedOutput = consoleOutput[5];
         expect(joinedOutput).toEqual("symbol");

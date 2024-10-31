@@ -1,6 +1,6 @@
 # Understanding Type Coercion in JavaScript
 
-Type coercion is the process of converting a value from one type to another (such as a string to a number) in JavaScript. This can happen implicitly (automatically by JavaScript) or explicitly (manually by the developer).
+Type coercion is the process of converting a value from one type to another (such as from a string to a number) in JavaScript. This can occur implicitly (automatically by JavaScript) or explicitly (manually by the developer).
 
 ### Implicit Type Coercion
 JavaScript often converts types automatically when performing operations. This is known as implicit type coercion.
@@ -20,9 +20,9 @@ console.log(Boolean(0)); // false
 ````
 
 ### Task
-Create a function named `coerceTypes` that takes two arguments and returns their sum. If the arguments are not numbers, the function should convert them to numbers before adding.  
+This code should calculate and print to the screen the sum of numbers represented in string format in variables `a` and `b` but it's broken.
 
-Print the result of calling `coerceTypes` with different types of arguments to the console.  
+Without changing the types of variables `a` and `b`, calculate the sum of numbers and save the result to the variable `sum`. The result must be a number, not a string.
 
 <div class="hint" title="A function to help you"> Remember to use the `Number()` function to convert values to numbers. </div>
 

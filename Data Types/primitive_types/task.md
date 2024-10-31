@@ -1,5 +1,3 @@
-
-### Understanding Primitive Types
 In JavaScript, primitive types are the most basic data types. They are immutable and are compared by value. JavaScript has six primitive types:
 
 1. **Number**: Represents both integer and floating-point numbers.
@@ -29,6 +27,7 @@ console.log(typeof nullVar); // "object"
 let symbol = Symbol("unique");
 console.log(typeof symbol); // "symbol"
 ```
+Remember that `typeof` returns "object" for `null`, which can be misleading.
 
 <div class="hint" title="Advantages of using primitive types">
 <ul>
@@ -39,15 +38,13 @@ console.log(typeof symbol); // "symbol"
 <div class="hint" title="Specific behaviour">
 <ul>
 <li>Immutability: Primitive types are immutable, meaning their values cannot be changed once created.</li>
-<li>Limited Functionality: They lack the methods and properties that objects have, limiting their functionality.</li>
+<li>Limited Functionality: They lack the methods and properties that objects have, which limits their functionality.</li>
 </ul>
 </div>
 
 ### Task
-Declare a variable value and assign it different primitive types of values
-(`number`, `string`, `boolean`, `undefined`, `null`, and `symbol`).
-Use the typeof operator to print the type of each value to the console.
-Remember that `typeof` returns "object" for `null`, which can be misleading.
+Declare a variable `value` and assign it different primitive types of values: `number`, `string`, `boolean`, `undefined`, `null`, and `symbol`.
+
 <div class="hint" title="Want to know more?">
 For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values">official JavaScript documentation on primitive types</a>.
 </div>

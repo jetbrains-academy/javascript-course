@@ -1,14 +1,6 @@
-function coerceTypes(a, b) {
-    const coercedSum = Number(a) + Number(b);
-    //The following code returns the variable coercedSum,
-    //when the function is called for displaying the result and testing, please do not modify it
-    return coercedSum
-}
+const a = '548102835'
+const b = '3806952288'
 
-console.log(coerceTypes('5', 3)); // 8
-console.log(coerceTypes('5', '3')); // 8
-console.log(coerceTypes(5, 3)); // 8
-console.log(coerceTypes(true, false)); // 1 (true is 1, false is 0)
+let sum = Number(a) + Number(b)
 
-//The following code exports the car object for the test to access it, please do not modify it
-module.exports = coerceTypes;
+console.log(sum);  // Should print 4355055123

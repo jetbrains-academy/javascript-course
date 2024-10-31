@@ -1,5 +1,5 @@
 type: edu
-custom_name: "Built-in Objects: Array and Date"
+custom_name: "Built-in Objects: Date"
 files:
   - name: task.js
     visible: true

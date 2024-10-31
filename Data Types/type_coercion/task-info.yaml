@@ -4,9 +4,9 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 52
-        length: 22
-        placeholder_text: /* TODO */
+      - offset: 56
+        length: 21
+        placeholder_text: a + b // fix this addition
   - name: test/test.js
     visible: false
     propagatable: false
