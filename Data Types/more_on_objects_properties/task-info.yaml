@@ -1,0 +1,13 @@
+type: edu
+custom_name: Data Property and Accessor Property
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 125
+        length: 100
+        placeholder_text: "/* Complete the property to return \"Title by Author, published\
+      \ in Year\" */"
+  - name: test/test.js
+    visible: false
+    propagatable: false

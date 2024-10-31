@@ -1,0 +1,12 @@
+type: edu
+custom_name: Type Coercion
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 56
+        length: 21
+        placeholder_text: a + b // fix this addition
+  - name: test/test.js
+    visible: false
+    propagatable: false

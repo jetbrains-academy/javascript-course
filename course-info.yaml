@@ -10,6 +10,7 @@ programming_language: JavaScript
 content:
   - Introduction
   - Variables
+  - Data Types
   - Data Structures
   - Operators
   - Conditional statements

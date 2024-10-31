@@ -1,0 +1,18 @@
+type: edu
+custom_name: "Built-in Objects: Number"
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 65
+        length: 15
+        placeholder_text: /* TODO */
+      - offset: 184
+        length: 22
+        placeholder_text: /* TODO */
+      - offset: 357
+        length: 8
+        placeholder_text: /* TODO */
+  - name: test/test.js
+    visible: false
+    propagatable: false

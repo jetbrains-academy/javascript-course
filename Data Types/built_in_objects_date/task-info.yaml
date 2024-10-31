@@ -1,0 +1,18 @@
+type: edu
+custom_name: "Built-in Objects: Date"
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 51
+        length: 11
+        placeholder_text: /* TODO */
+      - offset: 189
+        length: 19
+        placeholder_text: /* TODO */
+      - offset: 328
+        length: 20
+        placeholder_text: /* TODO */
+  - name: test/test.js
+    visible: false
+    propagatable: false
