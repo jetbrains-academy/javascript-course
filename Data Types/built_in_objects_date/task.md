@@ -18,7 +18,7 @@ console.log(date.getFullYear()); // e.g., 2023
 
 ### Task
 Practice working with dates:
- - Create new `Date` object with current date and time.
+ - Create a new `Date` object with the current date and time.
  - Extract the year from this date.
  - Convert the date to a human-readable string.
 

@@ -27,7 +27,7 @@ console.log(person["age"]); // 25
 ```
 
 ### Task
-Create an object named car with the following properties:  
+Create an object named `car` with the following properties:  
  - manufacturer (string)
  - model (string)
  - year (number)

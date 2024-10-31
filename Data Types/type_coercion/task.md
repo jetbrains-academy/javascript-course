@@ -20,7 +20,7 @@ console.log(Boolean(0)); // false
 ````
 
 ### Task
-This code should calculate and print to the screen the sum of numbers represented in string format in variables `a` and `b` but it's broken.
+This code is intended to calculate and print the sum of numbers represented as strings in variables `a` and `b` but it's broken.
 
 Without changing the types of variables `a` and `b`, calculate the sum of numbers and save the result to the variable `sum`. The result must be a number, not a string.
 

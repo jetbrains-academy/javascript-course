@@ -5,7 +5,7 @@ The `String` object is used for working with text and offers many methods for ma
 
 <div class="hint" title="Some String methods">
 
-Use the `String object methods to manipulate and work with text. Here are some commonly used methods:
+Use the `String` object methods to manipulate and work with text. Here are some commonly used methods:
 
 - <code>length</code>: Returns the length of the string.
 - <code>toUpperCase()</code>: Converts the string to uppercase.

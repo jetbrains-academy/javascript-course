@@ -53,7 +53,7 @@ You're given an object named `book` with the following data properties:
 - `author`
 - `year`
 
-Define accessor property `summary`.
+Define the accessor property `summary`.
 The `summary` property should return a string in the format: `"Title by Author, published in Year"`.
 
 <div class="hint" title="Hint for Task">
