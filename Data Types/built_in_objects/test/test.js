@@ -1,7 +1,7 @@
 const rewire = require("rewire");
 const console = require("node:console");
 const utils = rewire('#utils/utils.js')
-const customizeError = utils.__get__('customizeError') // Added import_variable
+const customizeError = utils.__get__('customizeError')
 
 let consoleOutput = [];
 const originalConsoleLog = console.log;
