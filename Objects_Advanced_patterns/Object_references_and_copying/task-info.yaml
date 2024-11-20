@@ -1,0 +1,14 @@
+type: edu
+custom_name: Object references and copying
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 75
+        length: 57
+        placeholder_text: // Using Object.assign() solve the task
+  - name: test/test.js
+    visible: false
+    propagatable: false
+  - name: two_ref_one_obj.svg
+    visible: false

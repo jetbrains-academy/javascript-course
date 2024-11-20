@@ -1,0 +1,16 @@
+type: edu
+custom_name: Object comparison
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 343
+        length: 86
+        placeholder_text: // Iterate over the array elements and increment count in case
+          of equality
+      - offset: 434
+        length: 12
+        placeholder_text: // Don't forget to return the count as a result
+  - name: test/test.js
+    visible: false
+    propagatable: false

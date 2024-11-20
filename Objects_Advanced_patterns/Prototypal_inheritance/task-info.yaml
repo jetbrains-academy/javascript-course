@@ -1,0 +1,12 @@
+type: edu
+custom_name: Prototypal inheritance
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 181
+        length: 51
+        placeholder_text: /* solve the task here */
+  - name: test/test.js
+    visible: false
+    propagatable: false

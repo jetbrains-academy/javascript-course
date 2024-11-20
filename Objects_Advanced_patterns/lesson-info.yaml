@@ -1,0 +1,7 @@
+custom_name: "Objects: Advanced patterns"
+content:
+  - Object_references_and_copying
+  - Copying_complex_objects
+  - Object_to_primitive_and_this
+  - Object_comparison
+  - Prototypal_inheritance

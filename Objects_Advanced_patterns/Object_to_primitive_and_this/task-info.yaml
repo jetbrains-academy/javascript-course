@@ -1,0 +1,12 @@
+type: edu
+custom_name: Object to primitive coercion; "this" keyword
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 86
+        length: 63
+        placeholder_text: // implement valueOf() method here
+  - name: test/test.js
+    visible: false
+    propagatable: false
