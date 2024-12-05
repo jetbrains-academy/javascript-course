@@ -33,7 +33,7 @@ console.log(lastLoggedIn); // { name: 'Bob' }
 ```
 
 This happens because in the case of objects, the variable stores not the value, but a reference to the actual value. Thus, when performing the assignment `lastLoggedIn = user`, not the value of the object is copied, but only the reference to it.
-![alt_text](two_ref_one_obj.svg)
+![alt_text](two_ref_one_obj.png)
 
 But we don't always need this behavior and fortunately, JavaScript has a way to create a copy of an object, not just a reference.
 This can be done manually, iterating through all the fields of one object and assigning them to another, but there is a more convenient way: use the method `Object.assign()`.

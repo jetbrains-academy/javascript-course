@@ -10,5 +10,5 @@ files:
   - name: test/test.js
     visible: false
     propagatable: false
-  - name: two_ref_one_obj.svg
+  - name: two_ref_one_obj.png
     visible: false
