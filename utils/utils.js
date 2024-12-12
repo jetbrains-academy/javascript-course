@@ -12,23 +12,23 @@ function customizeError(error, errorMessage, rmStack = false) {
     }
 }
 
-// TODO: rename import_variable to importByName after all merges
+// TODO: rename importByName to importByName after all merges
 /**
- * Workaround for easier handling errors in importing variables from rewired modules
+ * Workaround for easier handling errors in importing variables/functions/... from rewired modules
  *
  * @param {object} rewired_module Rewired module from which you want to import a variable
- * @param {String} variable_name Variable name to be imported
+ * @param {String} name Name to be imported
  *
- * @return "variable_name" value
+ * @return "name" value
  *
  * @throws {Error} user-readable error if it was impossible to import a variable with that name
  */
-function import_variable(rewired_module, variable_name){
+function importByName(rewired_module, name){
     try {
-        return rewired_module.__get__(variable_name);
+        return rewired_module.__get__(name);
     }
     catch (e) {
-        let errorToShow = new Error(`Check that the variable ${variable_name} is defined in the file ${rewired_module.__get__('module.filename').split('/').pop()}`);
+        let errorToShow = new Error(`Check that the variable ${name} is defined in the file ${rewired_module.__get__('module.filename').split('/').pop()}`);
         errorToShow.stack = null;
         throw errorToShow;
     }

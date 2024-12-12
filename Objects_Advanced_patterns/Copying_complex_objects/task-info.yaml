@@ -1,0 +1,13 @@
+type: edu
+custom_name: Copying complex objects
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 42
+        length: 37
+        placeholder_text: "orders.push(Object.assign({}, tShirt))  // fix it using structuredClone\
+      \ function"
+  - name: test/test.js
+    visible: false
+    propagatable: false

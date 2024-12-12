@@ -2,10 +2,10 @@ const rewire = require('rewire');
 const task = rewire('../task');
 const utils = rewire('#utils/utils.js')
 customizeError = utils.__get__('customizeError')
-import_variable = utils.__get__('import_variable')
+importByName = utils.__get__('importByName')
 
 beforeAll(() => {
-    gcd = import_variable(task, 'gcd');
+    gcd = importByName(task, 'gcd');
 });
 
 test('Check given examples', () => {
