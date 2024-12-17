@@ -5,8 +5,8 @@ Therefore, applying arithmetic operators to objects cannot result in another obj
 
 However, objects can be converted to `Boolean`, `Number`, or `String` types depending on the context they are used in.
 1. `Boolean`: Objects are always treated as `true`. That's all there is to it.
-2. `Number`. Objects are converted to numbers when arithmetic operations are performed on them.
-3. `String`. In situations where the context expects a string, objects can be converted to a `String`.
+2. `Number`: Objects are converted to numbers when arithmetic operations are performed on them.
+3. `String`: In situations where the context expects a string, objects can be converted to a `String`.
 
 To control how your object is converted, you can use the built-in symbol [Symbol.toPrimitive()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive) 
 or the [toString() and valueOf()](https://javascript.info/object-toprimitive#tostring-valueof) methods.
