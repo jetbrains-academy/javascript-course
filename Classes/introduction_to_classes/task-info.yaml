@@ -1,0 +1,15 @@
+type: edu
+custom_name: Introduction to Classes
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 45
+        length: 31
+        placeholder_text: // save coordinates into the attributes
+      - offset: 119
+        length: 52
+        placeholder_text: // return distance to the origin
+  - name: test/test.js
+    visible: false
+    propagatable: false

@@ -1,0 +1,15 @@
+type: edu
+custom_name: Class inheritance
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 263
+        length: 51
+        placeholder_text: // remember to call base class constructor
+      - offset: 349
+        length: 20
+        placeholder_text: // return payload value
+  - name: test/test.js
+    visible: false
+    propagatable: false
