@@ -1,5 +1,5 @@
 type: edu
-custom_name: Introduction to Classes
+custom_name: Introduction to classes
 files:
   - name: task.js
     visible: true

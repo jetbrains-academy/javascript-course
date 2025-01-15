@@ -1,5 +1,6 @@
 Object-oriented programming has another advantage: it allows you to hide the specifics of method implementation. 
-This allows the programmer to define an _interface_ – the expected way of interacting with objects of a class.
+This allows the programmer to define an _interface_ – the expected way of interacting with objects of a class. 
+In simple programs, this seems redundant, but in large projects, such solutions significantly improve the maintenance and prevent accidental misuse.
 
 Suppose we store the mileage of a car in some property. Now nothing prevents this field from being accidentally decreased or 
 even taking a negative value, although by the logic of the class such a thing is impossible. 
@@ -83,7 +84,7 @@ console.log(car.mileage);  // 27000
 car.#mileage = 10          // error
 ```
 
-Since child classes can't access private fields either, to leave this possibility, most often protected fields are used.
+Child classes can't access private fields of the parent class, which can be useful. Therefore, programmers most often use **protected** fields.
 
 <div class="hint">
 

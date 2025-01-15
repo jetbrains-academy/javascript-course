@@ -43,7 +43,9 @@ and also the value of `researchArea` needed only for the professor, so the const
 
 Only the class constructor knows how to initialize it correctly, so the `Professor` class constructor is responsible only for 
 initializing the fields belonging to the `Professor` class, and the `Employee` class constructor is responsible for 
-initializing the fields belonging to the `Employee` class, which we need to explicitly call using the `super` keyword. 
+initializing the fields belonging to the `Employee` class, which we need to explicitly call using the `super` keyword.
+
+You should always call the base class constructor using `super` in child class constructor. 
 It is important that this should be done **before** using `this` inside the constructor.
 
 <div class="hint" title="Default constructor">
