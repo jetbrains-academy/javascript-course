@@ -34,7 +34,7 @@ While this approach may seem similar to how we worked with objects before, it is
 * The `constructor` is a special method that is automatically called when an object is created.
   Its role is to initialize the object's attributes. The constructor can take any number of parameters (or none at all),
   depending on how the programmer defines it.
-* The same way as we declare methods inside objects declaration, in class methods we can also use this method to refer to object's attributes.
+* Just as we declare methods within an object, in class methods, we can use the `this` keyword to refer to the object’s attributes.
 * Object attributes and methods can be accessed directly using the dot operator (e.g., `tom.department`).
 
 You can read more about classes in JavaScript [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).

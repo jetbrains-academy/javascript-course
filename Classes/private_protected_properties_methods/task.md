@@ -25,7 +25,7 @@ To provide more control over modifying these fields, JavaScript supports _privat
 
 ### Protected properties
 Protected properties are accessible only through class methods and methods of inheriting classes.
-Although JavaScript does not natively support protected fields at the language level, programmers can use workaround to emulate them.
+Although JavaScript does not natively support protected fields at the language level, programmers can use workarounds to emulate them.
 
 By convention, protected fields are named with a leading underscore (`_`).
 
