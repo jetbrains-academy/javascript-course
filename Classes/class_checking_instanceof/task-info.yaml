@@ -1,0 +1,15 @@
+type: edu
+custom_name: instanceof operator
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 556
+        length: 60
+        placeholder_text: // implement method here
+      - offset: 672
+        length: 93
+        placeholder_text: // implement function with instanceof check here
+  - name: test/test.js
+    visible: false
+    propagatable: false

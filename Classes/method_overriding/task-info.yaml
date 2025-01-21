@@ -1,0 +1,15 @@
+type: edu
+custom_name: Method overriding
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 245
+        length: 32
+        placeholder_text: // implement the constructor
+      - offset: 289
+        length: 107
+        placeholder_text: // overriding the distanceFromOrigin() method
+  - name: test/test.js
+    visible: false
+    propagatable: false

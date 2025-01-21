@@ -1,0 +1,7 @@
+content:
+  - introduction_to_classes
+  - class_inheritance
+  - method_overriding
+  - static_properties_methods
+  - private_protected_properties_methods
+  - class_checking_instanceof

@@ -1,0 +1,12 @@
+type: edu
+custom_name: Static properties and methods
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 18
+        length: 38
+        placeholder_text: // add static property here
+  - name: test/test.js
+    visible: false
+    propagatable: false

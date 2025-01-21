@@ -1,0 +1,15 @@
+type: edu
+custom_name: Private and protected properties and methods
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 147
+        length: 92
+        placeholder_text: // add implementation with range check here
+      - offset: 272
+        length: 18
+        placeholder_text: // add implementation here
+  - name: test/test.js
+    visible: false
+    propagatable: false
