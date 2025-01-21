@@ -1,5 +1,5 @@
-Inheritance may require not only adding new functionality, but also replacing or reusing existing functionality. 
-For example, changing the behavior of some methods of the parent class. Let's continue our example with the professor from the previous task.
+Inheritance may involve not only adding new functionality but also modifying or reusing existing functionality.
+For example, it might require changing the behavior of certain methods in the parent class. Let's continue with our example of the professor from the previous task.
 
 ```javascript
 class Employee {
@@ -31,11 +31,11 @@ console.log(professor.intro());
 ```
 
 
-Thus, we _override_ the `intro()` method in the child class. Since when we call this method on an object of a `Professor` class, 
-the attribute lookup is first performed on the child class and then on the parent class, we can override the methods by changing their behavior.
+Thus, we _override_ the `intro()` method in the child class. When this method is called on an object of the `Professor` class,
+the attribute lookup is first performed in the child class and then in the parent class. This allows us to override methods by modifying their behavior.
 
-Often we don't need to change the entire behavior of a method, but only add something. 
-To do this, we need to call the method of the parent class. This can be done using the `super` keyword.
+Often, we don't need to completely change a method's behavior but simply add something to it.
+To achieve this, we can call the method from the parent class using the `super` keyword.
 
 ```javascript
 class Professor extends Employee {
@@ -55,12 +55,12 @@ console.log(professor.intro());
 // I'm Scott Williams. Professor in Labs department.
 ```
 
-This approach is certainly preferable since it avoids code duplication.
+This approach is certainly preferable, as it avoids code duplication.
 
 ### Task
-We will practice method overriding using the example of the already known `Point` class. 
-Imagine that you need to implement the `Point3D` class, which is a child of the `Point` class. 
-However, for the three-dimensional case, the implementation of `distanceFromOrigin` from the `Point` class is no longer suitable.
+We will practice method overriding using the example of the already familiar `Point` class. 
+Imagine that you need to implement the `Point3D` class, which is a child of the `Point` class.
+However, in the three-dimensional case, the implementation of the `distanceFromOrigin` method from the `Point` class is no longer suitable.
 
 Complete the program by implementing the constructor and overriding the `distanceFromOrigin` method for the `Point3D` class. 
-You can use [the following formula](https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Distance_between_two_points) to calculate distance for 3D case.
+You can use [this formula](https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Distance_between_two_points) to calculate the distance for the 3D case.

@@ -1,12 +1,12 @@
-Not always attributes or methods are bound to specific objects. 
-Sometimes this piece of functionality belongs to the class as a whole, in which case we can declare it using the `static` keyword. 
+Attributes or methods are not always tied to specific objects.
+Sometimes, a piece of functionality belongs to the class as a whole, in which case it can be declared using the `static` keyword. 
 
-The main differences are that to refer to these methods and attributes, we use the class name rather than the object name. 
-For example, we may want to add to our `Vehicle` class information about what units of measurement we will use in our program when dealing with vehicles. 
-We may also want a method that returns an array of basic vehicle types. 
-Both of these are not specific to a particular vehicle but are common to all objects of this class.
+The key difference is that static methods and attributes are accessed using the class name rather than the object name.
+For example, in our `Vehicle` class, we might want to include information about the units of measurement used in our program when dealing with vehicles.
+Additionally, we might want to add a method that returns an array of basic vehicle types.
+These attributes and methods are not specific to any particular vehicle but are shared across all objects of the class.
 
-Note that static attributes are **not** accessible from instance objects because they are not object's attributes.
+Note that static attributes are **not** accessible from instance objects, as they are not attributes of individual objects.
 
 ```javascript
 class Vehicle {
@@ -22,7 +22,7 @@ class Vehicle {
     }
     
     static getUnitsOfMeasurement() {
-        // in static methods, `this` refer to an class, not the object instance
+        // in static methods, `this` refers to a class, not an object instance
         return this.UnitsOfMeasurement;
     }
 }
@@ -49,4 +49,4 @@ Note that static attributes and methods are inherited.
 You can read more about static attributes and methods [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static). 
 
 ### Task
-Add a static property `coordinateSystem` with the value `"cartesian"` for the `Point` class.
+Add a static property `coordinateSystem` with the value `"cartesian"` to the `Point` class.
