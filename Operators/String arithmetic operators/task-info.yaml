@@ -5,7 +5,7 @@ files:
     placeholders:
       - offset: 112
         length: 88
-        placeholder_text: // use plus operator for string concatenation
+        placeholder_text: // Use the plus operator for string concatenation
   - name: test/test.js
     visible: false
     propagatable: false

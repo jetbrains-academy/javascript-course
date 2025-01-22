@@ -19,7 +19,7 @@ class Employee {
     }
 };
 
-let emily = new Employee("Emily Taylor", "Planing");
+let emily = new Employee("Emily Taylor", "Planning");
 let tom = new Employee("Tom Brown", "Marketing");
 
 console.log(emily.intro());  // I'm Emily Taylor.

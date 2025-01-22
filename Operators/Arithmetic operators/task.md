@@ -30,12 +30,12 @@ You can read more about _arithmetic operators_ [here](https://developer.mozilla.
 
 <div class="hint" title="Assignment operators">
 
-  It is quite common in programming to assign to a variable the value of an expression that uses the old value of that variable.
+  It is quite common in programming to assign a variable the value of an expression that uses the variable's existing value:
   ```javascript
   a = a + 10;
   x = x * 2;
   ```
-  JavaScript in such cases allows you to use assignment operators to write the same more conveniently:
+  In such cases, JavaScript provides assignment operators, allowing you to write the same code more conveniently:
   ```
   a += 10;
   x *= 2;

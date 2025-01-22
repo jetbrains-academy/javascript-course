@@ -26,7 +26,7 @@ console.log(greeting);
 ```
 You can read more about this function [here](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static).
 
-Note: in JavaScript you can use both single and double quotes for strings. To unify, we'll use double quotes.
+_Note: In JavaScript, you can use either single or double quotes for strings. For consistency, we will use double quotes._
 
 ```javascript
 let greeting = 'Hello';  // also correct string

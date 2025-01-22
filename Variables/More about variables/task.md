@@ -15,7 +15,7 @@ console.log(greeting); // Prints 'Good evening!'
 ```
 
 ### Comments
-Programmers can add comments to a program. This is an any text that does not affect the programme in any way, but helps to understand how it works.
+Programmers can add comments to a program. This is a text that does not affect the program in any way but helps understand how it works.
 Comments in JavaScript start with the characters `//`:
 ```javascript
 // This is a comment
@@ -23,8 +23,8 @@ Comments in JavaScript start with the characters `//`:
 ```
 
 ### Semicolon
-In JavaScript, as in some other programming languages, instructions end with a semicolon (`;`) character. 
-Although its absence is not an error in JavaScript, we will use it for code consistency.
+In JavaScript, as in some other programming languages, instructions end with a semicolon (`;`).
+Although omitting it is not an error in JavaScript, we will include it for consistency.
 
 ### Good to know
 In older programs, you may encounter the use of `var` instead of `let`. This is a somewhat “outdated” style nowadays. Although there is a small difference between `let` and `var`, it doesn't matter to us yet.

@@ -6,7 +6,7 @@ In JavaScript, primitive types are the most basic data types. They are immutable
 4. **Undefined**: A variable that has been declared but not assigned a value.
 5. **Null**: Represents the intentional absence of any object value.
 6. **Symbol**: A unique and immutable data type used to create unique identifiers for objects.
-7. **BigInt**: Represent integers with arbitrary magnitude. You can safely store and operate on large integers even beyond the safe integer limit.
+7. **BigInt**: Represents integers of arbitrary magnitude. It allows you to safely store and perform operations on large integers, even those exceeding the safe integer limit.
 
 ```javascript
 // Example: Using different primitive types

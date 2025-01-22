@@ -12,19 +12,19 @@ console.log(x);
 ```
 
 ### Block scope
-JavaScript provides the ability to declare variables with let or const within a block bounded by parentheses and they will only be accessible within that block.
+JavaScript allows you to declare variables using `let` or `const` within a block enclosed by curly braces, and those variables will only be accessible within that block.
 ```
 let a = 10;
 let b = 20;
 {
-    console.log(b); // can access to variable from global scope
-    let a = 123; // can declare new variable with block scope with the same name
+    console.log(b); // can access the variable from the global scope
+    let a = 123; // can declare a new variable with block scope using the same name
     console.log(a);
     let c = 30;
     console.log(c);
 }
-console.log(a); // x from the global scope stays the same
-console.log(c); // can NOT access to variable from the block
+console.log(a); // a from the global scope stays the same
+console.log(c); // CANNOT access the variable from the block scope
 ```
 
 ### Function scope
@@ -38,7 +38,7 @@ function func() {
 
 ### Task
 There are some lines in the given program that cause errors when executing. They use variables that are not available in their scopes.
-Remove these lines that cause errors.
+Remove the lines that cause errors.
 
 <div class="hint">
   There are only two such lines

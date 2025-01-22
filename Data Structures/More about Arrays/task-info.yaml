@@ -5,6 +5,6 @@ files:
     placeholders:
       - offset: 85
         length: 36
-        placeholder_text: // Replace fifth element from the end with "black"
+        placeholder_text: // Replace the fifth element from the end with "black"
   - name: test/test.js
     visible: false
