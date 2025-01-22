@@ -29,7 +29,7 @@ console.log(Object.is(NaN, NaN));  // true
 ```
 
 You might think it's easy to get confused by comparisons, and you'd be absolutely right! 
-Therefore, in any unclear situation, you can refer to [this table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#comparing_equality_methods) from the official documentation.
+Therefore, in any unclear situation, you can refer to [this table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#comparing_equality_methods) from the up-to-date documentation.
 
 ### Task
 You are given a program with blanks. Fill in the blanks so that the program displays only `true`, using only the following set of possible values.

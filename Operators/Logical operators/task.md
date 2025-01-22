@@ -43,7 +43,7 @@ Since the <code>!</code> operator has higher precedence than the <code>||</code>
 If you want, you can read more about 
 [AND](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND), 
 [OR](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR), 
-and [NOT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT) in the official docs.
+and [NOT](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT) in the up-to-date documentation.
 
 ### Task
 You are given a piece of a program that should check if an employee's pass allows access to the warehouse.  

@@ -36,6 +36,6 @@ let greeting = 'Hello';  // also correct string
 Modify the program so that it displays the word "JavaScript" on the screen
 
 <div class="hint" title="More about variables">
-  You can find more about it in the <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables"> official docs</a>.
+  You can find more about it in the <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables"> up-to-date documentation</a>.
 </div>
 

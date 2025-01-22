@@ -36,4 +36,4 @@ Initialize them according to the vehicle: Toyota Corolla 2020 production year. P
 
 <div class="hint" title="How to create an object"> Remember to use the object literal syntax to create the `car` object. You can refer to the example above for guidance. </div>
 
-<div class="hint" title="Want to know more?"> For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">official JavaScript documentation on objects.</a></div> 
+<div class="hint" title="Want to know more?"> For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">up-to-date JavaScript documentation on objects.</a></div> 

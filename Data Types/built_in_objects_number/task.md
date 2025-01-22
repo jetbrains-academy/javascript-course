@@ -8,7 +8,7 @@ Use the <code>Number</code> object methods to manipulate and work with numbers. 
 - <code>isInteger(value)</code>: Determines whether the value is an integer.
 - <code>parseInt(string, radix)</code>: Parses a string and returns an integer of the specified radix (base).
 
-For more information, refer to the <a href ="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">official JavaScript documentation on the <code>Number</code> object.</a>
+For more information, refer to the <a href ="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">up-to-date JavaScript documentation on the <code>Number</code> object.</a>
 </div>
 
 

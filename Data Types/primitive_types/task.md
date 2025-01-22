@@ -57,7 +57,7 @@ Remember that `typeof` returns "object" for `null`, which can be misleading.
 Declare a variable `value` and assign it different primitive types of values: `number`, `string`, `boolean`, `undefined`, `null`, and `symbol`.
 
 <div class="hint" title="Want to know more?">
-For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values">official JavaScript documentation on primitive types</a>.
+For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values">up-to-date JavaScript documentation on primitive types</a>.
 
 You can read more about <code>BigInt</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#bigint_type">here</a>. 
 </div>

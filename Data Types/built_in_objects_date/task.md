@@ -7,7 +7,7 @@ Use the <code>Date</code> object methods to manipulate and work with dates and t
 - <code>getFullYear()</code>: Returns the year of the specified date.
 - <code>toDateString()</code>: Returns the date portion of a <code>Date</code> object as a human-readable string.
 
-For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date">official JavaScript documentation on the <code>Date</code> object.</a>
+For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date">up-to-date JavaScript documentation on the <code>Date</code> object.</a>
 </div>
 
 ```javascript
