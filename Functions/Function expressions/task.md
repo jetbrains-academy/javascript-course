@@ -1,15 +1,15 @@
 It might seem trivial to have a line where we assign the value `"Tom"` to the variable `name`.
 ```js
-let name = "Tom"
+let name = "Tom";
 ```
 
 Actually, in JavaScript, a function can also be a value and can be assigned to a variable:
 ```js
 let hello = function () {
-    console.log("Hello!")
+    console.log("Hello!");
 }
 
-hello()  // prints "Hello!"
+hello();  // prints "Hello!"
 ```
 
 This is another way of creating a function, called a _Function Expression_. It allows you to define a function within an expression.

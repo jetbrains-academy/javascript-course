@@ -9,13 +9,13 @@ Here are some other methods:
 let colors = ["red", "blue", "green"]
 let last = colors.pop()  // extracts "green" and returns it as a result
 console.log(last);       // prints "green"
-colors.push('pink')      // adds "pink" to the end
+colors.push("pink")      // adds "pink" to the end
 
 let first = colors.shift()  // extracts "red" and returns it as a result
 console.log(first);         // prints "red"
 colors.unshift("white")     // adds "write" to the beginning
 
-console.log(colors)  // [ 'white', 'blue', 'pink' ]
+console.log(colors)  // [ "white", "blue", "pink" ]
 ```
 
 You can read about plenty of other methods [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#instance_methods).
@@ -24,7 +24,7 @@ You can read about plenty of other methods [here](https://developer.mozilla.org/
 You are given an array `numbers` with number names.  
 Remove the first two elements from the array and add them to the array `answer` **in reverse order**. This means that the array `answer` should be:
 ```
-[ 'Two', 'One' ]
+[ "Two", "One" ]
 ```
 
 <div class="hint">

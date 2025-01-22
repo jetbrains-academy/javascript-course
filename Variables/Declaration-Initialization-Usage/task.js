@@ -1,3 +1,3 @@
-let b = 123
-console.log(b)
+let b = 123;
+console.log(b);
 /* TODO */

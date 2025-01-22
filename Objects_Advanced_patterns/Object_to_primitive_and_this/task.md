@@ -13,20 +13,20 @@ or the [toString() and valueOf()](https://javascript.info/object-toprimitive#tos
 
 ```javascript
 let item = {
-    name: 'pineapple',
+    name: "pineapple",
     price: 3.45,
     valueOf(){
-        return this.price
+        return this.price;
     },
     toString(){
-        return this.name
+        return this.name;
     }
-}
+};
 // unary plus to convert to a numeric value; valueOf() is called
-console.log(+item)  // 3.45
+console.log(+item);  // 3.45
 
 // force coercion to a `String`; toString() is called
-console.log(String(item))  // pineapple
+console.log(String(item));  // pineapple
 ```
 
 ### The "this" keyword

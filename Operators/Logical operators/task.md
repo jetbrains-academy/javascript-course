@@ -5,36 +5,36 @@ Despite their name, they can work not only with the _boolean_ data type, but for
 In JS, this operator is represented with two vertical lines: `||`.  
 The idea of the _OR_ operation is that the result will be `true` if **at least one** of the operands is `true`:
 ```javascript
-console.log(false || false)  // false
-console.log(false || true)   // true
-console.log(true || false)   // true
-console.log(true || true)    // true
+console.log(false || false);  // false
+console.log(false || true);   // true
+console.log(true || false);   // true
+console.log(true || true);    // true
 ```
 
 ### AND
 In JS, this operator is represented with two ampersands: `&&`.  
 The idea of the _AND_ operation is that the result will be `true` only if **both** of the operands are `true`:
 ```javascript
-console.log(false && false)  // false
-console.log(false && true)   // false
-console.log(true && false)   // false
-console.log(true && true)    // true
+console.log(false && false);  // false
+console.log(false && true);   // false
+console.log(true && false);   // false
+console.log(true && true);    // true
 ```
 
 ### NOT
 _NOT_ is a unary operator, and it’s represented with one exclamation sign `!`.  
 Its logic is simple: it inverts a value from `false` to `true` and vice versa:
 ```javascript
-console.log(!false)  // true
-console.log(!true)   // false
+console.log(!false);  // true
+console.log(!true);   // false
 ```
 
 ### Using operators with variables
 Of course, you can use these operators with variables:
 ```javascript
-let a = false
-let b = true
-let c =  a || !b  // "c" variable will be "false"
+let a = false;
+let b = true;
+let c =  a || !b;  // "c" variable will be "false"
 ```
 <div class="hint">
 Since the <code>!</code> operator has higher precedence than the <code>||</code> operator, it will be executed first, and no brackets are required.

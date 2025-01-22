@@ -1,16 +1,16 @@
 function maxNegRow(matrix){
-    let negatives = []
+    let negatives = [];
 
     for (const row of matrix){
         for (const elem of row){
             if (elem < 0){
-                negatives.push(elem)
-                break
+                negatives.push(elem);
+                break;
             }
         }
     }
 
-    return arrayMax(negatives)
+    return arrayMax(negatives);
 }
 
 let matrix = [
@@ -20,13 +20,13 @@ let matrix = [
     [-7,  30, -25]
 ];
 
-console.log(maxNegRow(matrix))  // -5
+console.log(maxNegRow(matrix));  // -5
 
 function arrayMax(array){
-    let max = array[0]
+    let max = array[0];
     for (const elem of array){
         if(elem > max)
-            max = elem
+            max = elem;
     }
-    return max
+    return max;
 }

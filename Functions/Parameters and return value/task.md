@@ -10,8 +10,8 @@ In the body of the function, we can use parameters as ordinary variables.
 
 However, when calling a function, we need to specify _arguments_ — values that will be passed to the function in place of its parameters:
 ```js
-add(10,20)  // a + b = 30
-add(-2,-5)  // a + b = -7
+add(10,20);  // a + b = 30
+add(-2,-5);  // a + b = -7
 ```
 
 ### Returning value
@@ -20,16 +20,16 @@ A function may _return_ a value as a result of its work, which can then be used 
 ```js
 function add(a, b) {
     return a + b;
-    console.log("This message will never be printed")
+    console.log("This message will never be printed");
 }
 ```
 Note that executing the `return` instruction immediately terminates the function.
 
 Let’s see how we can use the value returned by the function:
 ```js
-const result = add(10,20)  // save the returned value to a variable
-console.log(result)        // 30
-console.log(add(-2,-5))    // immediately use the returned value; prints -7
+const result = add(10,20);  // save the returned value to a variable
+console.log(result);        // 30
+console.log(add(-2,-5));    // immediately use the returned value; prints -7
 ```
 
 You can read more about returning values [here](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions).

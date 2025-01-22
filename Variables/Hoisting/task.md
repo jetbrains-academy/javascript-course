@@ -1,7 +1,7 @@
 What if we try to refer to a variable that is not yet defined, but will be defined later in the program?
 ```
-console.log(b) // ReferenceError: Cannot access 'b' before initialization
-let b = 123
+console.log(b); // ReferenceError: Cannot access 'b' before initialization
+let b = 123;
 ```
 
 You may notice this speciality. Despite the fact that by the time `console.log()` is executed in both cases `b` has not yet been declared, in the second case the interpreter (the special program that executes our programme) knows about the existence of the variable `b`. It's happened due to Hoisting.
@@ -11,10 +11,10 @@ Hoisting is a JavaScript mechanism where variables and function declarations are
 This also works with functions:
 
 ```
-func()
+func();
 
 function func() {
-    console.log('Hello from func()')
+    console.log("Hello from func()");
 }
 ```
 Although func() has not yet been declared at the time of the func() call, thanks to hoisting, we can call it correctly

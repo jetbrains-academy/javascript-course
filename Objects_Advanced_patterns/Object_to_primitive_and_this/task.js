@@ -1,9 +1,9 @@
 let subscription = {
-    service: 'music',
+    service: "music",
     month: 6,
     pricePerMonth: 12.5,
     valueOf(){
-        return this.pricePerMonth * this.month
+        return this.pricePerMonth * this.month;
     }
 }
 

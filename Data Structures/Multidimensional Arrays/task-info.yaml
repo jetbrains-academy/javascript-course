@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 229
-        length: 67
+        length: 68
         placeholder_text: // Replace element 999 with 777
   - name: test/test.js
     visible: false

@@ -32,12 +32,12 @@ let person = {
     lastName: "Smith"
 };
 
-Object.defineProperty(person, 'fullName', {
+Object.defineProperty(person, "fullName", {
     get: function() {
-        return this.firstName + ' ' + this.lastName;
+        return this.firstName + " " + this.lastName;
     },
     set: function(name) {
-        [this.firstName, this.lastName] = name.split(' ');
+        [this.firstName, this.lastName] = name.split(" ");
     }
 });
 

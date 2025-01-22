@@ -7,7 +7,7 @@ files:
         length: 12
         placeholder_text: /* check the temperature format */
       - offset: 196
-        length: 63
+        length: 64
         placeholder_text: // generate string for Fahrenheit
   - name: test/test.js
     visible: false

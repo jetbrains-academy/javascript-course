@@ -21,5 +21,5 @@ class Truck extends Vehicle {
 }
 
 let truck = new Truck("Ford", 2015, 7500);
-console.log(truck.getVehicleInfo())  // Ford 2015
-console.log(truck.getPayload())      // 7500
+console.log(truck.getVehicleInfo());  // Ford 2015
+console.log(truck.getPayload());     // 7500

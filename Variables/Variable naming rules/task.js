@@ -1,6 +1,6 @@
-let text_one = 'Hello'
+let text_one = "Hello";
 /* TODO */
-let $_$ = 'Some text'
+let $_$ = "Some text";
 /* TODO */
-let CheckMe = 'Check me'
-let perfectName = 'Best variable name in this file'
+let CheckMe = "Check me";
+let perfectName = "Best variable name in this file";

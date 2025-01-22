@@ -2,21 +2,21 @@ When working with primitives, we use the comparison operators `==` and `===`. Ho
 
 ```javascript
 let car1 = {
-    model: 'Volkswagen Golf',
+    model: "Volkswagen Golf",
     year: 2016
-}
+};
 
 let car2 = {
-    model: 'Volkswagen Golf',
+    model: "Volkswagen Golf",
     year: 2016
-}
+};
 
-let car3 = car1
+let car3 = car1;
 
-console.log(car1 == car2)   // false
-console.log(car1 === car2)  // false
-console.log(car1 == car3)   // true
-console.log(car1 === car3)  // true
+console.log(car1 == car2);   // false
+console.log(car1 === car2);  // false
+console.log(car1 == car3);   // true
+console.log(car1 === car3);  // true
 ```
 
 You may have already guessed that when comparing objects, their references are compared, not the objects themselves.
@@ -28,12 +28,12 @@ To avoid manually iterating over the attributes of the compared objects, we sugg
 
 To do this, we need to add the following line at the beginning of the file:
 ```javascript
-const _ = require('lodash');
+const _ = require("lodash");
 ```
 
 You can then compare object values as shown below:
 ```javascript
-console.log(_.isEqual(car1, car2))  // true
+console.log(_.isEqual(car1, car2));  // true
 ```
 
 You can read more about `_.isEqual()` and other methods from the Lodash library [here](https://lodash.com/docs/4.17.15#isEqual).

@@ -3,13 +3,13 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 6
-        length: 5
+      - offset: 5
+        length: 6
         placeholder_text: ""
         is_visible: false
-      - offset: 27
+      - offset: 29
         length: 10
-        placeholder_text: b = 123
+        placeholder_text: b = 123;
         is_visible: false
   - name: test/test.js
     visible: false

@@ -14,10 +14,10 @@ The main methods are as follows:
 
 ```javascript
 let data = new Set();
-data.add("One")
-data.add("Two")
-data.add("Two")
-console.log(data)  // Set(2) { 'One', 'Two' }
+data.add("One");
+data.add("Two");
+data.add("Two");
+console.log(data);  // Set(2) { 'One', 'Two' }
 ```
 
 For more information about Set, read [this doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set).

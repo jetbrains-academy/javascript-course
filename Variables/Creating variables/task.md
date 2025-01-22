@@ -11,20 +11,26 @@ let greeting;
 
 To write a value to the greeting variable, we use the `=` operator:
 ```
-greeting = 'Hello';
+greeting = "Hello";
 ```
-We can imagine that we put the text 'Hello' in a box with a 'greeting' sticker on it.
+We can imagine that we put the text "Hello" in a box with a "greeting" sticker on it.
 
 We can change the value of a variable as many times as we want during the program. Moreover, we can combine variable declaration and assignment:
 ```
-let greeting = 'Hello';
+let greeting = "Hello";
 ```
 
 Finally, let's learn how to see what is stored inside a variable. To do this, let's use the `console.log` function built into JS. It will display the value of the variable whose name we will give it.
 ```
-console.log(greeting)
+console.log(greeting);
 ```
 You can read more about this function [here](https://developer.mozilla.org/en-US/docs/Web/API/console/log_static).
+
+Note: in JavaScript you can use both single and double quotes for strings. To unify, we'll use double quotes.
+
+```javascript
+let greeting = 'Hello';  // also correct string
+```
 
 ### Task
 Modify the program so that it displays the word "JavaScript" on the screen

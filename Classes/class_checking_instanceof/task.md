@@ -1,8 +1,8 @@
 In the [Data Types](course://Data Types/typeof_operator) lesson, we used `typeof` to determine the data type we were working with. 
 
 ```javascript
-let a = 123
-console.log(typeof a)  // number
+let a = 123;
+console.log(typeof a);  // number
 ```
 
 However, while `typeof` works for primitives, it only identifies objects of any class as being of type `Object`.
@@ -32,11 +32,11 @@ This is, of course, correct, but sometimes we may want more detailed information
 For this purpose, we can use the `instanceof` operator, which allows us to check whether a specified object belongs to a particular class or one of its parent classes.
 
 ```javascript
-console.log(professor instanceof Employee)   // true
-console.log(professor instanceof Professor)  // true
+console.log(professor instanceof Employee);   // true
+console.log(professor instanceof Professor);  // true
 
-console.log(employee instanceof Employee)    // true
-console.log(employee instanceof Professor)   // false
+console.log(employee instanceof Employee);    // true
+console.log(employee instanceof Professor);   // false
 ```
 
 Although object-oriented programs typically allow the use of child class objects in place of parent class objects by

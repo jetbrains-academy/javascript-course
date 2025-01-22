@@ -17,14 +17,14 @@ class Employee {
     intro() {
         return "I'm " + this.name + ".";
     }
-}
+};
 
-let emily = new Employee('Emily Taylor', 'Planing');
-let tom = new Employee('Tom Brown', 'Marketing');
+let emily = new Employee("Emily Taylor", "Planing");
+let tom = new Employee("Tom Brown", "Marketing");
 
 console.log(emily.intro());  // I'm Emily Taylor.
 console.log(tom.intro());    // I'm Tom Brown.
-console.log(tom.department)  // Marketing
+console.log(tom.department);  // Marketing
 ```
 
 In this example, we declared the `Employee` class and created two objects of this class using the `new` keyword.

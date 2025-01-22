@@ -7,38 +7,38 @@ JavaScript have 3 types of scope:
 ### Global scope
 All variables we declared before were global. All other scripts and functions can access these variables.
 ```
-let x = 10
-console.log(x)
+let x = 10;
+console.log(x);
 ```
 
 ### Block scope
 JavaScript provides the ability to declare variables with let or const within a block bounded by parentheses and they will only be accessible within that block.
 ```
-let a = 10
-let b = 20
+let a = 10;
+let b = 20;
 {
-    console.log(b) // can access to variable from global scope
-    let a = 123 // can declare new variable with block scope with the same name
-    console.log(a)
-    let c = 30
-    console.log(c)
+    console.log(b); // can access to variable from global scope
+    let a = 123; // can declare new variable with block scope with the same name
+    console.log(a);
+    let c = 30;
+    console.log(c);
 }
-console.log(a) // x from the global scope stays the same
-console.log(c) // can NOT access to variable from the block
+console.log(a); // x from the global scope stays the same
+console.log(c); // can NOT access to variable from the block
 ```
 
 ### Function scope
 It's very much like a block scope. Each function creates its own new scope.
 ```
 function func() {
-    let sum = 321
-    console.log(sum)
+    let sum = 321;
+    console.log(sum);
 }
 ```
 
 ### Task
 There are some lines in the given program that cause errors when executing. They use variables that are not available in their scopes.
-Remove these lines that cause errors
+Remove these lines that cause errors.
 
 <div class="hint">
   There are only two such lines

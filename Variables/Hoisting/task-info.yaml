@@ -4,22 +4,22 @@ files:
     visible: true
     placeholders:
       - offset: 0
-        length: 160
+        length: 162
         placeholder_text: |-
-          func()
-          console.log("[global] a:", a)
+          func();
+          console.log("[global] a:", a);
           
           function func() {
-              let b
-              console.log("[func] a:", a)
-              console.log("[func] b:", b)
-              b = 20
+              let b;
+              console.log("[func] a:", a);
+              console.log("[func] b:", b);
+              b = 20;
           }
-          b = 20
+          b = 20;
           
-          let a = 10
+          let a = 10;
           
-          let b
+          let b;
         is_visible: false
   - name: test/test.js
     visible: false

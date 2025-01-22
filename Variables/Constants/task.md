@@ -6,15 +6,15 @@ Such variables are used in two cases:
 Let’s start with the first case. For example, we need to use airport codes in our program.
 These constants are named using capital letters and underscores.
 ```
-const AIRPORT_LANZAROTE = 'ACE'
-const AIRPORT_BRNO = 'BRQ'
-const AIRPORT_FRIEDRICHSHAFEN = 'FDH'
+const AIRPORT_LANZAROTE = "ACE";
+const AIRPORT_BRNO = "BRQ";
+const AIRPORT_FRIEDRICHSHAFEN = "FDH";
 
-let destination = AIRPORT_BRNO
+let destination = AIRPORT_BRNO;
 ```
 
 The use of such constants allows:
-- Simplifying code reading, as `AIRPORT_BRNO` is more obvious than `'BRQ'`.
+- Simplifying code reading, as `AIRPORT_BRNO` is more obvious than `"BRQ"`.
 - Making it easier to write programs, as we don't need to remember the airport codes and the IDE can help with autocompleting variable names.
 - If the airport changes its code (this is rare but possible), we only need to change one line in our program with the constant declaration and that's it.
 

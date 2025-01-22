@@ -2,9 +2,9 @@ Converting operands to numbers when comparing can be both a feature and a proble
 For example, `0` and `false` are considered the same thing for `==` equality:
 
 ```javascript
-console.log(0 == false)    // true
-console.log("" == false)   // true, because "" is converted to 0 by the == operator
-console.log("0" == false)  // true, because "0" is converted to 0 by the == operator
+console.log(0 == false);    // true
+console.log("" == false);   // true, because "" is converted to 0 by the == operator
+console.log("0" == false);  // true, because "0" is converted to 0 by the == operator
 ```
 
 However, we don't always need these conversions! 
@@ -14,18 +14,18 @@ It checks the equality without type conversion. Thus, comparing operands of diff
 There is also a _"strict non-equality"_ operator `!==`.
 
 ```javascript
-console.log(0 === false)   // false
-console.log("" !== false)  // true
+console.log(0 === false);   // false
+console.log("" !== false);  // true
 ```
 
 JS has another way to make comparisons: the `Object.is()` method.
 It works almost the same as `===`, but the only difference is how it handles `+0`, `-0` and `NaN`:
 
 ```javascript
-console.log(-0 === +0)            // true
-console.log(Object.is(-0, +0))    // false
-console.log(NaN === NaN)          // false
-console.log(Object.is(NaN, NaN))  // true
+console.log(-0 === +0);            // true
+console.log(Object.is(-0, +0));    // false
+console.log(NaN === NaN);          // false
+console.log(Object.is(NaN, NaN));  // true
 ```
 
 You might think it's easy to get confused by comparisons, and you'd be absolutely right! 

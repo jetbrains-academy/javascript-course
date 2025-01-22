@@ -31,7 +31,7 @@ console.log(squares.has(4));  // "false" since we deleted the pair with that key
 console.log(squares.get("Four"));  // "Sixteen"
 ```
 
-For more information about Map, read [this doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map).
+For more information about `Map`, read [this doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map).
 
 ### Task
 You are given the map `fruitWeights`.

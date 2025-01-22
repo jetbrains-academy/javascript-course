@@ -8,19 +8,19 @@ We do this using a special property called `[[Prototype]]` and it's setter, `__p
 
 ```javascript
 let car = {
-    model: 'Audi A6',
+    model: "Audi A6",
     year: 2022,
-    color: 'cherry'
-}
+    color: "cherry"
+};
 
 let registeredCar = {
     __proto__: car,
-    owner: 'Alex',
-    numberPlate: '12AB345'
-}
+    owner: "Alex",
+    numberPlate: "12AB345"
+};
 
 console.log(registeredCar.color);  // cherry
-car.color = 'black';
+car.color = "black";
 console.log(registeredCar.color);  // black
 ```
 
@@ -34,19 +34,19 @@ In this way, more than two objects can be combined into a chain.
 
   ```javascript
   let car = {
-    model: 'Audi A6',
+    model: "Audi A6",
     year: 2022,
-    color: 'cherry',
+    color: "cherry",
     accident(){
       this.damaged = true;
     }
-  }
+  };
   
   let registeredCar = {
     __proto__: car,
-    owner: 'Alex',
-    numberPlate: '12AB345'
-  }
+    owner: "Alex",
+    numberPlate: "12AB345"
+  };
   
   console.log(registeredCar);  // prints { owner: 'Alex', numberPlate: '12AB345' }
   

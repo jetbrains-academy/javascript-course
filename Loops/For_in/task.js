@@ -1,5 +1,5 @@
 function medalsFilter(medals, count) {
-    let result = []  // array for keys that satisfy the condition
+    let result = [];  // array for keys that satisfy the condition
 
     for(key in medals) {
         if(medals[key] > count) {
@@ -7,7 +7,7 @@ function medalsFilter(medals, count) {
         }
     }
 
-    return result
+    return result;
 }
 
 let medals = {

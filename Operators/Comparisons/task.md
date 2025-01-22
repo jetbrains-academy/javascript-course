@@ -27,15 +27,15 @@ But how are the characters compared? They are compared according to their order 
 
 What about _uppercase_ characters? Any _uppercase_ character is considered _less_ than any _lowercase_ character.
 ```javascript
-console.log('Z' < 'a');               // true
-console.log('Abra' < 'Abracadabra');  // true
-console.log('Abadef' < 'Abc');        // true
+console.log("Z" < "a");               // true
+console.log("Abra" < "Abracadabra");  // true
+console.log("Abadef" < "Abc");        // true
 ```
 
 ### Comparing different types
 If you try to compare different data types, JavaScript will attempt to convert them to numbers:
 ```javascript
-console.log('20' > 9);   // true, string '20' will be converted to number 20
+console.log("20" > 9);   // true, string "20" will be converted to number 20
 console.log(true == 1);  // true
 ```
 You can read more about _comparison operators_ [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators).

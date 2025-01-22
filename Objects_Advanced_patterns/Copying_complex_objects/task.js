@@ -2,7 +2,7 @@ function addToOrder(orders, tShirt) {
     orders.push(structuredClone(tShirt));
 }
 
-let orders = []
+let orders = [];
 
 let currentOrder= {
     recipient: "Bob",
@@ -10,7 +10,7 @@ let currentOrder= {
         size: "XL",
         color: "Blue"
     }
-}
+};
 
 addToOrder(orders, currentOrder);
 

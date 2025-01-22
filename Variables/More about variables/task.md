@@ -2,16 +2,16 @@ We remember that variables can be represented as boxes. The name of the variable
 There is nothing stopping us from putting the value of one box to another, i.e. we can assign to a variable the value of another variable.
 
 ```
-let greeting = 'Hello!'
-let morning = 'Good morning!'
-let evening = 'Good evening!'
-console.log(greeting) // Prints 'Hello!'
+let greeting = 'Hello!';
+let morning = 'Good morning!';
+let evening = 'Good evening!';
+console.log(greeting); // Prints 'Hello!'
 
-greeting = morning
-console.log(greeting) // Prints 'Good morning!'
+greeting = morning;
+console.log(greeting); // Prints 'Good morning!'
 
-greeting = evening
-console.log(greeting) // Prints 'Good evening!'
+greeting = evening;
+console.log(greeting); // Prints 'Good evening!'
 ```
 
 ### Comments
@@ -19,8 +19,12 @@ Programmers can add comments to a program. This is an any text that does not aff
 Comments in JavaScript start with the characters `//`:
 ```javascript
 // This is a comment
-// console.log("This instruction is commented and will not be executed")
+// console.log("This instruction is commented and will not be executed");
 ```
+
+### Semicolon
+In JavaScript, as in some other programming languages, instructions end with a semicolon (`;`) character. 
+Although its absence is not an error in JavaScript, we will use it for code consistency.
 
 ### Good to know
 In older programs, you may encounter the use of `var` instead of `let`. This is a somewhat “outdated” style nowadays. Although there is a small difference between `let` and `var`, it doesn't matter to us yet.

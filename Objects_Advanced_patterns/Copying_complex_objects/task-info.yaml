@@ -6,7 +6,7 @@ files:
     placeholders:
       - offset: 42
         length: 37
-        placeholder_text: "orders.push(Object.assign({}, tShirt))  // fix it using structuredClone\
+        placeholder_text: "orders.push(Object.assign({}, tShirt));  // fix it using structuredClone\
       \ function"
   - name: test/test.js
     visible: false

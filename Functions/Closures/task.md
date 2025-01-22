@@ -4,7 +4,7 @@ For example, in this case, the scope of the variable `name` is limited to the `h
 function helloGenerator(name){
     // ...
 }
-console.log(name)  // ReferenceError: name is not defined
+console.log(name);  // ReferenceError: name is not defined
 ```
 However, JavaScript has a mechanism that allows a function to remember the environment in which it was created. This mechanism is called a _closure_.
 ```js
@@ -12,10 +12,10 @@ function helloGenerator(name){
     function hello(){
         console.log("Hello, " + name);
     }
-    hello()
+    hello();
 }
 
-helloGenerator("Tom")  // will print "Hello, Tom"
+helloGenerator("Tom");  // will print "Hello, Tom"
 ```
 
 But we can go even further. Remember that a function can act as a regular value. So, let's try returning a function as the return value of another function.
@@ -24,11 +24,11 @@ function helloGenerator(name){
     function hello(){
         console.log("Hello, " + name);
     }
-    return hello  // no () brackets! We don't want to call the hello function here
+    return hello;  // no () brackets! We don't want to call the hello function here
 }
 
-helloTom = helloGenerator("Tom")
-helloTom()  // will print "Hello, Tom"
+helloTom = helloGenerator("Tom");
+helloTom();  // will print "Hello, Tom"
 ```
 Note that in this example, we are calling the `hello` function using the `helloTom` variable outside the `helloGenerator` function.
 However, the function still remembers the context in which it was created and the value of the variable `name`!

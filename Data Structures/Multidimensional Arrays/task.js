@@ -8,6 +8,6 @@ let matrix = [
     [42, 40, 28, 3,  24, 999]
 ];
 
-matrix[matrix.length - 1][matrix[matrix.length - 1].length-1] = 777
+matrix[matrix.length - 1][matrix[matrix.length - 1].length-1] = 777;
 
 console.log(matrix);

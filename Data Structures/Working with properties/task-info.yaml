@@ -4,13 +4,13 @@ files:
     visible: true
     placeholders:
       - offset: 74
-        length: 16
+        length: 17
         placeholder_text: // add to car property "price" with value 9250
-      - offset: 91
-        length: 20
+      - offset: 92
+        length: 21
         placeholder_text: // add to car property "currency" with value "USD"
-      - offset: 112
-        length: 16
+      - offset: 114
+        length: 17
         placeholder_text: // delete property "owner" from car object
   - name: test/test.js
     visible: false

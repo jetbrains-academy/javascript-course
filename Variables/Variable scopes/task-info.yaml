@@ -3,13 +3,13 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 60
+      - offset: 58
         length: 10
-        placeholder_text: let total = sum
+        placeholder_text: let total = sum;
         is_visible: false
       - offset: 175
         length: 10
-        placeholder_text: console.log(x)
+        placeholder_text: console.log(x);
         is_visible: false
   - name: test/test.js
     visible: false

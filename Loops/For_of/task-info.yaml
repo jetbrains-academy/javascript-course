@@ -5,13 +5,13 @@ files:
     visible: true
     placeholders:
       - offset: 30
-        length: 21
+        length: 22
         placeholder_text: "// save the array[0] element to the maxVal variable"
-      - offset: 57
-        length: 84
+      - offset: 58
+        length: 85
         placeholder_text: // compare all elements to maxVal
-      - offset: 147
-        length: 13
+      - offset: 149
+        length: 14
         placeholder_text: // don't forget to return the result
   - name: test/test.js
     visible: false
