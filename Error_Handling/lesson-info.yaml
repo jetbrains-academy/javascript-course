@@ -1,0 +1,6 @@
+custom_name: Error Handling
+content:
+  - naive_approach
+  - try_catch
+  - throw_operator
+  - conditional_catch_finally
