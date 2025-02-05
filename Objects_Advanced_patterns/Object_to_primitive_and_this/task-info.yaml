@@ -5,8 +5,8 @@ files:
     visible: true
     placeholders:
       - offset: 86
-        length: 63
-        placeholder_text: // implement valueOf() method here
+        length: 64
+        placeholder_text: // Implement the valueOf() method here
   - name: test/test.js
     visible: false
     propagatable: false

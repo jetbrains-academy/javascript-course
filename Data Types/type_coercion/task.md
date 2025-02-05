@@ -6,16 +6,16 @@ Type coercion is the process of converting a value from one type to another (suc
 JavaScript often converts types automatically when performing operations. This is known as implicit type coercion.
 
 ```javascript
-console.log('5' - 3); // 2 (string '5' is converted to number 5)
-console.log('5' + 3); // '53' (number 3 is converted to string '3')
+console.log("5" - 3); // 2 (string "5" is converted to number 5)
+console.log("5" + 3); // "53" (number 3 is converted to string "3")
 ````
 
 ### Explicit Type Coercion
 You can also manually convert types using functions like `Number()`, `String()`, and `Boolean()`.
 
 ```javascript
-console.log(Number('5')); // 5
-console.log(String(5)); // '5'
+console.log(Number("5")); // 5
+console.log(String(5)); // "5"
 console.log(Boolean(0)); // false
 ````
 

@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 16
-        length: 13
+        length: 14
         placeholder_text: // write an expression
   - name: test/test.js
     visible: false

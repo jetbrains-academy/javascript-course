@@ -21,5 +21,5 @@ Dynamic Typing: Useful in dynamically typed languages like JavaScript to ensure 
 You're given a variable `value` with different types of values (number, string, boolean) assigned to it. Use the `typeof` operator to print the type of each value to the console.
 
 <div class="Hint" title="Want to know more?">
-For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">official JavaScript documentation on <code>typeof</code></a>.
+For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">up-to-date JavaScript documentation on <code>typeof</code></a>.
 </div>

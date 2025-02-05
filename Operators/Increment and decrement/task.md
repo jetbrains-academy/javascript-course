@@ -7,10 +7,10 @@ So much so that there are dedicated operations for that:
 The challenge for beginners is that these operations can be used in both _prefix_ and _postfix_ forms. Let's clarify with examples:
 
 ```javascript
-let sum = 10
-sum++
+let sum = 10;
+sum++;
 console.log(sum);  // 11
-++sum
+++sum;
 console.log(sum);  // 12
 ```
 
@@ -19,13 +19,13 @@ So far, there seems to be no difference, until we try to assign the result of th
 ```javascript
 let temp  // declare one more variable
 
-sum = 10
-temp = sum++
+sum = 10;
+temp = sum++;
 console.log(sum);   // 11
 console.log(temp);  // 10
 
-sum = 10
-temp = ++sum
+sum = 10;
+temp = ++sum;
 console.log(sum);   // 11
 console.log(temp);  // 11
 ```

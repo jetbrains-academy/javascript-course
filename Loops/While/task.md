@@ -43,7 +43,7 @@ Or a slightly more complex example:
 let a = 3
 while(a !== 0){
     console.log(a);
-    a = a - 2
+    a = a - 2;
 }
 ```
 

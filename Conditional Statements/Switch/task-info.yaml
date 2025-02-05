@@ -3,11 +3,11 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 63
-        length: 60
+      - offset: 65
+        length: 61
         placeholder_text: // handle Saturday and Sunday cases
-      - offset: 151
-        length: 17
+      - offset: 155
+        length: 18
         placeholder_text: // update isWeekend with the corresponding value
   - name: test/test.js
     visible: false

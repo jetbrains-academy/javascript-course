@@ -12,7 +12,7 @@ Use the `String` object methods to manipulate and work with text. Here are some 
 - <code>replaceAll(searchValue, newValue)</code>: Replaces all occurrences of `searchValue` with `newValue`.
 - <code>split(separator)</code>: Splits the string into an array of substrings based on the specified separator.
 
-For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">official JavaScript documentation on the <code>String</code> object.</a>
+For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">up-to-date JavaScript documentation on the <code>String</code> object.</a>
 </div>
 
 ```javascript
@@ -31,5 +31,5 @@ Complete the code to performs the following operations:
 Remember to use the `String` object methods to manipulate and work with text. </div>
 
 <div class="hint" title="Want to know more?">
-For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects">official JavaScript documentation on built-in objects</a>.
+For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects">up-to-date JavaScript documentation on built-in objects</a>.
 </div>

@@ -32,12 +32,12 @@ let person = {
     lastName: "Smith"
 };
 
-Object.defineProperty(person, 'fullName', {
+Object.defineProperty(person, "fullName", {
     get: function() {
-        return this.firstName + ' ' + this.lastName;
+        return this.firstName + " " + this.lastName;
     },
     set: function(name) {
-        [this.firstName, this.lastName] = name.split(' ');
+        [this.firstName, this.lastName] = name.split(" ");
     }
 });
 
@@ -61,5 +61,5 @@ Remember to use the `Object.defineProperty` method to define the `summary` acces
 </div>
 
 <div class="hint" title="Want to know more?">
-For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_properties">official JavaScript documentation on object properties</a>.
+For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_properties">up-to-date JavaScript documentation on object properties</a>.
 </div>

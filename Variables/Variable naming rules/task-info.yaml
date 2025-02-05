@@ -3,13 +3,13 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 23
+      - offset: 24
         length: 10
-        placeholder_text: let text-two = 15278
+        placeholder_text: let text-two = 15278;
         is_visible: false
-      - offset: 56
+      - offset: 58
         length: 10
-        placeholder_text: let 38parrots = 38
+        placeholder_text: let 38parrots = 38;
         is_visible: false
   - name: test/test.js
     visible: false

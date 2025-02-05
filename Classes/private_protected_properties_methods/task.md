@@ -46,10 +46,10 @@ class Vehicle {
 }
 
 let car = new Vehicle("Audi A4", 4300);
-car.mileage = 27000
+car.mileage = 27000;
 car.mileage = -12000;      // doesn't break anything
 console.log(car.mileage);  // 27000
-car._mileage = 10          // still possible to access directly 
+car._mileage = 10;          // still possible to access directly 
 console.log(car.mileage);  // 10
 ```
 
@@ -78,10 +78,10 @@ class Vehicle {
 }
 
 let car = new Vehicle("Audi A4", 4300);
-car.mileage = 27000
+car.mileage = 27000;
 car.mileage = -12000;      // doesn't break anything
 console.log(car.mileage);  // 27000
-car.#mileage = 10          // error
+car.#mileage = 10;          // error
 ```
 
 Child classes can't access the private fields of a parent class, which can be useful in certain cases. Therefore, programmers most often prefer using **protected** fields instead.

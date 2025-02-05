@@ -1,22 +1,22 @@
 In programming, it is often necessary to define the value of a variable based on a condition. For example:
 ```js
-let guestType = "adult"
-let tickerPrice
+let guestType = "adult";
+let tickerPrice;
 if (guestType === "adult"){
     tickerPrice = 10;
 } else {
     tickerPrice = 5;
 }
-console.log(tickerPrice)  // 10
+console.log(tickerPrice);  // 10
 ```
 
 However, you can see how bulky such a simple operation looks.
 Therefore, in these cases, it is easier to use the _conditional (ternary) operator_. Recall that in JavaScript, we have unary and binary operators, which have one and two operands, respectively. As you might guess, this operator has _3 operands_.
 
 ```js
-let guestType = "adult"
-let tickerPrice = guestType === "adult" ? 10 : 5
-console.log(tickerPrice)  // 10
+let guestType = "adult";
+let tickerPrice = guestType === "adult" ? 10 : 5;
+console.log(tickerPrice);  // 10
 ```
 
 The idea is as follows: 

@@ -5,24 +5,24 @@ However, this approach may not work as expected when the attributes themselves a
 let arr = [
     {name: "Alice"},
     {name: "Bob"},
-]
+];
 
-let arr1 = []
-Object.assign(arr1, arr)
+let arr1 = [];
+Object.assign(arr1, arr);
 
-arr[0].name = "Dave"  // change in the original array
+arr[0].name = "Dave";  // change in the original array
 
-console.log(arr1)  // [ { name: 'Dave' }, { name: 'Bob' } ]
+console.log(arr1);  // [ { name: 'Dave' }, { name: 'Bob' } ]
 ```
 
 If we need to copy a complex object, including all its nested properties, it is better to use the `structuredClone()` function. You can find more details about this function [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/structuredClone). 
 
 ```javascript
-arr1 = structuredClone(arr)
+arr1 = structuredClone(arr);
 
-arr[0].name = "Dave"
+arr[0].name = "Dave";
 
-console.log(arr1)  // [ { name: 'Alice' }, { name: 'Bob' } ]
+console.log(arr1);  // [ { name: 'Alice' }, { name: 'Bob' } ]
 ```
 
 This approach is called a [deep copy](https://developer.mozilla.org/en-US/docs/Glossary/Deep_copy).

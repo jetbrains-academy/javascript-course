@@ -4,8 +4,8 @@ let car = {
     owner: "Jacob"
 };
 
-car.price = 9250
-car.currency = "USD"
-delete car.owner
+car.price = 9250;
+car.currency = "USD";
+delete car.owner;
 
 console.log(car)

@@ -4,7 +4,7 @@ let book = {
     year: 1949
 };
 
-Object.defineProperty(book, 'summary', {
+Object.defineProperty(book, "summary", {
     get: function() {
         return `${this.title} by ${this.author}, published in ${this.year}`;
     }

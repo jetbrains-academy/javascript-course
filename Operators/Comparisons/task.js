@@ -1,10 +1,10 @@
 let range = {
     start: -50,
     end: 30
-}
+};
 
-let value = 15
+let value = 15;
 
-grantAccess = (value >= range.start) && (value < range.end)
+grantAccess = (value >= range.start) && (value < range.end);
 
-console.log(grantAccess)
+console.log(grantAccess);

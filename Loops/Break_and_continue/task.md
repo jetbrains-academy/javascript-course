@@ -6,9 +6,9 @@ When a `continue` statement is executed, the current iteration of the loop is im
 ```js
 for(let i = 1; i < 10; i++) {
     if (i % 3 === 0) {
-        continue
+        continue;
     }
-    console.log(i)
+    console.log(i);
 }
 // Prints 1 2 4 5 7 8
 ```
@@ -18,9 +18,9 @@ for(let i = 1; i < 10; i++) {
 ```js
 for(let i = 1; i < 10; i++) {
     if (i % 3 === 0) {
-        break
+        break;
     }
-    console.log(i)
+    console.log(i);
 }
 // Prints 1 2
 ```
@@ -37,9 +37,9 @@ matrix = [
 for (const row of matrix){
     for (const elem of row){
         if (elem % 2 === 0) {
-            break
+            break;
         }
-        console.log(elem)
+        console.log(elem);
     }
 }
 

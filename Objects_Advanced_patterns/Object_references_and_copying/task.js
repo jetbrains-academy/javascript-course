@@ -1,7 +1,7 @@
 function createBadge(template, participantName) {
     let result = {};
     Object.assign(result, template, {name: participantName});
-    return result
+    return result;
 }
 
 let template= {
@@ -9,7 +9,7 @@ let template= {
     company: "JetBrains",
     event: "JavaScript Day",
     year: 2025
-}
+};
 
 let bob = createBadge(template, "Bob");
 let alice = createBadge(template, "Alice");

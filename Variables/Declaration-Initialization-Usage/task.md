@@ -4,26 +4,26 @@ Declaration -> Initialization -> Usage
 ```
 
 ```
-let a // Declaration
-a = 123 // Initialization
-console.log(a) // Usage
-a = 321 // Usage because a is already initialized
+let a; // Declaration
+a = 123; // Initialization
+console.log(a); // Usage
+a = 321; // Usage because a is already initialized
 ```
 
 Declaration and Initialization can be performed in the same time
 ```
-let a = 123 // Declaration + Initialization
+let a = 123; // Declaration + Initialization
 ```
 
 What happens if we try to use an undeclared variable or function? We will get an error:
 ```
-console.log(b) // ReferenceError: b is not defined
+console.log(b); // ReferenceError: b is not defined
 ```
 
 In this case, if the variable has been explicitly declared, there will be no more error, but the value of the variable will be undefined:
 ```
-let b
-console.log(b) // undefined
+let b;
+console.log(b); // undefined
 ```
 
 ### Task

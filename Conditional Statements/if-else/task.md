@@ -6,11 +6,11 @@ This technique in programming is called _branching_, and the most basic operator
 Its logic is very simple: if the condition in its parentheses is `true`, then the sequence of actions within its curly brackets is executed.
 
 ```js
-let number = 28
+let number = 28;
 if (number % 2 === 0){
     // both next lines will be executed:
-    console.log("number = " + number)  // number = 28
-    console.log("number is even")  // number is even
+    console.log("number = " + number);  // number = 28
+    console.log("number is even");  // number is even
 }
 ```
 
@@ -19,14 +19,14 @@ If the condition is not met, the instructions will not be executed.
 The `if` operator is often used with an optional `else` block, which executes when the condition is `false`.
 
 ```js
-let passScore = 25
-let score = 20
+let passScore = 25;
+let score = 20;
 if (score >= passScore){
     // next line will NOT be executed
-    console.log("You passed the exam!")
+    console.log("You passed the exam!");
 } else {
     // next line will be executed
-    console.log("You failed the exam!")  // You failed the exam!
+    console.log("You failed the exam!");  // You failed the exam!
 }
 ```
 
@@ -50,8 +50,8 @@ You can read more about conditional statements and if-else [here](https://develo
 If you do not specify curly braces, the `if` statement will only apply to one of the following instructions:
 ```js
 if (number % 2 === 0)
-console.log("number is even")  // number is even
-console.log("Hello")  // this will always be executed, regardless of the "number" value
+console.log("number is even");  // number is even
+console.log("Hello");  // this will always be executed, regardless of the "number" value
 ```
 </div>
 

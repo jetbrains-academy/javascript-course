@@ -3,22 +3,22 @@ What if we don't have a range but instead have a finite set of values? In this c
 
 Let's understand how to work with it through an example:
 ```js
-let color = "green"
-let action = ""
+let color = "green";
+let action = "";
 switch(color) {
     case "red":
-        action = "Stop"
-        break
+        action = "Stop";
+        break;
     case "yellow":
         action = "Caution";
-        break
+        break;
     case "green":
         action = "Go";
-        break
+        break;
     default:
         action = "Invalid";
 }
-console.log(action)  // Go
+console.log(action);  // Go
 ```
 
 The `switch` operator takes a value as an _argument_. It tries to compare this value one by one with the values specified by the `case` keywords. If there is a match, the instructions specified after the corresponding `case` are executed.
@@ -27,11 +27,11 @@ If none of the values from the `case` statements match, then the instructions in
 You may notice that all case blocks have a `break` statement following the assignment instruction.
 When the `break` instruction is executed, the processing of the `switch` block is terminated. If you remove `break`, the subsequent `case` blocks will be executed until a `break` is encountered or the end of the `switch` block is reached:
 ```js
-let letter = "b"
+let letter = "b";
 switch(letter) {
-    case "a": console.log("a")  // will NOT be executed
-    case "b": console.log("b")  // will print "b"
-    case "c": console.log("c")  // will print "c"
+    case "a": console.log("a");  // will NOT be executed
+    case "b": console.log("b");  // will print "b"
+    case "c": console.log("c");  // will print "c"
 }
 ```
 The `switch` statement is quite specific but very flexible. You can learn about all the details of its use [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch).

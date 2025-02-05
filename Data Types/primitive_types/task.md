@@ -6,6 +6,7 @@ In JavaScript, primitive types are the most basic data types. They are immutable
 4. **Undefined**: A variable that has been declared but not assigned a value.
 5. **Null**: Represents the intentional absence of any object value.
 6. **Symbol**: A unique and immutable data type used to create unique identifiers for objects.
+7. **BigInt**: Represents integers of arbitrary magnitude. It allows you to safely store and perform operations on large integers, even those exceeding the safe integer limit.
 
 ```javascript
 // Example: Using different primitive types
@@ -26,6 +27,16 @@ console.log(typeof nullVar); // "object"
 
 let symbol = Symbol("unique");
 console.log(typeof symbol); // "symbol"
+
+let integerNumber = Number.MAX_SAFE_INTEGER;
+console.log(integerNumber);  // 9007199254740991
+
+console.log(integerNumber * integerNumber);
+// 8.112963841460666e+31
+
+let bigIntegerNumber = BigInt(Number.MAX_SAFE_INTEGER);
+console.log(bigIntegerNumber * bigIntegerNumber);
+// 81129638414606663681390495662081n
 ```
 Remember that `typeof` returns "object" for `null`, which can be misleading.
 
@@ -46,5 +57,7 @@ Remember that `typeof` returns "object" for `null`, which can be misleading.
 Declare a variable `value` and assign it different primitive types of values: `number`, `string`, `boolean`, `undefined`, `null`, and `symbol`.
 
 <div class="hint" title="Want to know more?">
-For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values">official JavaScript documentation on primitive types</a>.
+For more information, refer to the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#primitive_values">up-to-date JavaScript documentation on primitive types</a>.
+
+You can read more about <code>BigInt</code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#bigint_type">here</a>. 
 </div>

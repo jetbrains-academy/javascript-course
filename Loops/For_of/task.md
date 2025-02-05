@@ -4,7 +4,7 @@ For this, there is a special `for..of` loop. It is similar to the `for..in` loop
 Use `for..of` to iterate over **data structures** and `for..in` to iterate over **an object’s properties**.
 
 ```js
-let colors = ["red", "blue", "green", "yellow"]
+let colors = ["red", "blue", "green", "yellow"];
 
 for (const color of colors) {
     console.log(color);

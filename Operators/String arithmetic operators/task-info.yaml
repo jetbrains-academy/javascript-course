@@ -3,9 +3,9 @@ files:
   - name: task.js
     visible: true
     placeholders:
-      - offset: 111
-        length: 87
-        placeholder_text: // use plus operator for string concatenation
+      - offset: 112
+        length: 88
+        placeholder_text: // Use the plus operator for string concatenation
   - name: test/test.js
     visible: false
     propagatable: false

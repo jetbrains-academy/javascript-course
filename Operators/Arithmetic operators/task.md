@@ -18,15 +18,31 @@ We'll start with operators we've known since school: _arithmetic_ operators.
 The easiest way to get familiar with them is through examples:
 
 ```javascript
-console.log(11 + 3)  // 14
-console.log(11 - 3)  // 8
-console.log(11 * 3)  // 33
-console.log(11 / 3)  // 3.6666666666666665
-console.log(11 % 3)  // 2
-console.log(11 ** 3) // 1331
+console.log(11 + 3);  // 14
+console.log(11 - 3);  // 8
+console.log(11 * 3);  // 33
+console.log(11 / 3);  // 3.6666666666666665
+console.log(11 % 3);  // 2
+console.log(11 ** 3); // 1331
 console.log(16 ** 0.5 ); // 4 (raising to the power of 0.5 is the same as taking the square root)
 ```
 You can read more about _arithmetic operators_ [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#arithmetic_operators).
+
+<div class="hint" title="Assignment operators">
+
+  It is quite common in programming to assign a variable the value of an expression that uses the variable's existing value:
+  ```javascript
+  a = a + 10;
+  x = x * 2;
+  ```
+  In such cases, JavaScript provides assignment operators, allowing you to write the same code more conveniently:
+  ```
+  a += 10;
+  x *= 2;
+  ```
+  You can read more about assignment operators [here](ttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_operators#assignment_operators).
+</div>
+
 
 ### Task
 Write a program to calculate the discriminant of a quadratic polynomial:

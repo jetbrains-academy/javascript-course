@@ -56,14 +56,14 @@ You can read more about the `for..in` loop [here](https://developer.mozilla.org/
   for (key in car) {
     // ...
   }
-  console.log(key) // "owner"
+  console.log(key); // "owner"
   ```
   Most often, `const` is used here:
   ```javascript
   for (const key in car) {
     // ...
   }
-  console.log(key) // ReferenceError: key is not defined
+  console.log(key); // ReferenceError: key is not defined
   ```
 </div>
 
