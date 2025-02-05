@@ -1,10 +1,12 @@
-Previously, we have considered situations where exceptions were generated automatically due to JavaScript errors. 
-However, the programmer can also generate exceptions and use the `try..catch` mechanism to handle their own errors.
+Previously, we assumed exceptions are generated automatically. Before we learn how to do it manually, a few words about terminology.
 
+In Computer Science, we can say when an error occurs, an exception is generated that can catch and handle. But from this description, it is not clear what an "exception" is in JavaScript.
+
+In JavaScript, an "exception" is an error object. This object can be one of the built-in error classes: `Error`, `ReferenceError`, `TypeError` and others.
+
+Moreover, the programmer can also generate their own exceptions and use the `try..catch` mechanism to handle it. 
 To generate an exception, use the `throw` operator with an error object. 
-JavaScript has many built-in classes for standard errors: `Error`, `ReferenceError`, `TypeError` and others. 
-We can use them to create error objects and specify a custom message as a constructor argument. 
-It is accessible with the `message` property of the error object in the `catch` block.
+Creating this object, you can specify a custom message as a constructor argument. You can access it later in the `catch` block with the `message` property of the error object.
 
 ```js
 function intArraySum(array) {

@@ -1,5 +1,5 @@
 Since errors can be of different types, we may need to respond to them in different ways. 
-To implement it, we can use the already known `instanceof` operator to check if the object belongs to some class. 
+To implement it, we can use the [already known `instanceof` operator](course://Classes/class_checking_instanceof) to check if the object belongs to some class. 
 For clarity, we're printing the error object's attribute `name` containing the error type.
 
 Besides, in this example you may encounter `finally` block. 

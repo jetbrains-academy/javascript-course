@@ -37,14 +37,14 @@ In this case, the function should still return a greeting message, but `"Hello, 
 
 <div class="hint" title="Template string">
 
-  Try using <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">template strings</a> for more convenience.
-
   In programming, it is quite often necessary to fill a string according to a certain pattern. 
-  Template string is a special string in backtick (<code>&#96;</code>) characters, in which you can embed various expressions using placeholders like `${expression}`.
+  _Template string_ is a special string in backtick (<code>&#96;</code>) characters, in which you can embed various expressions using placeholders like `${expression}`.
 
   ```
   let num = 10;
   let str = "Example";
   console.log(`${str}: number^2 = ${num*num}`);  // Example: number^2 = 100
   ```
+
+  You can see one more example of using the template string in this task and read more about them <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">here</a>.
 </div>

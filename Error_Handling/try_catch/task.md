@@ -61,7 +61,7 @@ Unfortunately, right now program execution will terminate and no flights will be
 Put the line <code>result += &#96;${e.getDeparture()} - ${e.getDestination()}\n&#96;</code> in a `try` block 
 and if an exception occurs, add the string `"--- - ---\n"` to the result to get the expected result of the program.
 
-<div class="hint">
+<div class="hint" title="New line character">
 
   The <code class="language-text">\n</code> character combination means that a line break must be printed. 
   For example, the result of outputting such a string <code>console.log("abc\ndef\nghi");</code> will be:
