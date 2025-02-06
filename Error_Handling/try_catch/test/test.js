@@ -46,7 +46,7 @@ test('Check extra example', () => {
         const expected3 = "--- - ---\nEVN - AMS\n--- - ---\n"
         expect(flightBoardPresenter(flights3)).toBe(expected3);
     } catch (e){
-        customizeError(e, 'Stranger can have a surname but no name.', true)
+        customizeError(e, 'A stranger can have a surname but no first name.', true)
         throw e
     }
 });

@@ -32,10 +32,10 @@ test('Check throwing exception', () => {
         try{
             greeting(cat);
         } catch (e){
-            expect(e.message).toBe('Person must have name and surname');
+            expect(e.message).toBe('A person must have a name and a surname');
         }
     } catch (e){
-        customizeError(e, 'Make sure the example for cat is working and error message is correct.', true)
+        customizeError(e, 'Make sure the example with the cat works and the error message is correct.', true)
         throw e
     }
 });

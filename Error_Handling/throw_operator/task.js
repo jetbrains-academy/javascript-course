@@ -1,6 +1,6 @@
 function greeting(person) {
     if (!("name" in person) || !("surname" in person)) {
-        throw new Error("Person must have name and surname");
+        throw new Error("A person must have a name and a surname");
     }
     return `Hello, ${person.name} ${person.surname}!`;
 }
@@ -21,5 +21,5 @@ try {
     console.log(greeting(bob));  // Hello, Bob Thomson!
     console.log(greeting(cat));  // will not print anything
 } catch (e) {
-    console.log(e.message);  // Person must have name and surname
+    console.log(e.message);  // A person must have a name and a surname
 }

@@ -1,12 +1,14 @@
-Previously, we assumed exceptions are generated automatically. Before we learn how to do it manually, a few words about terminology.
+Previously, we assumed that exceptions are generated automatically. 
+Before learning how to generate exceptions manually, let’s clarify some terminology.
 
-In Computer Science, we can say when an error occurs, an exception is generated that can catch and handle. But from this description, it is not clear what an "exception" is in JavaScript.
+In Computer Science, we say that when an error occurs, an exception is generated, which can then be caught and handled. 
+However, this description does not clearly explain what an "exception" is in JavaScript.
 
-In JavaScript, an "exception" is an error object. This object can be one of the built-in error classes: `Error`, `ReferenceError`, `TypeError` and others.
+In JavaScript, an "exception" is an error object. This object can belong to one of the built-in error classes: `Error`, `ReferenceError`, `TypeError`, and others.
 
-Moreover, the programmer can also generate their own exceptions and use the `try..catch` mechanism to handle it. 
-To generate an exception, use the `throw` operator with an error object. 
-Creating this object, you can specify a custom message as a constructor argument. You can access it later in the `catch` block with the `message` property of the error object.
+Moreover, programmers can generate their own exceptions and use the `try..catch` mechanism to handle them. 
+To generate an exception, use the `throw` operator with an error object.
+While creating this object, you can specify a custom message as a constructor argument. You can later access it in the `catch` block via the `message` property of the error object.
 
 ```js
 function intArraySum(array) {
@@ -35,16 +37,16 @@ try {
 }
 ```
 
-The line where the exception is generated and its handler may be in different functions or even in different files. 
+The line where the exception is generated and the handler for that exception may be located in different functions or even in different files. 
 You should pay attention to where the error will be handled and what instructions will not be executed when the exception is generated.
 
-Also note that if an exception is generated inside a function, the function is immediately terminated without returning any value, as it will not be used.
+Additionally, note that if an exception is generated inside a function, the function terminates immediately without returning any value, as the return value will not be used.
 
-You can read more about `throw` operator [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw).
+You can read more about the `throw` operator [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw).
 
 ### Task
-As the number of users increases, you have decided that the greeting function written earlier needs to be changed. 
-And you decided that it should no longer greet users whose names cannot be retrieved, but it should report an error message in this situation.
+As the number of users increases, you have decided that the greeting function written earlier needs to be changed.
+Instead of greeting users whose names cannot be retrieved, the function should now report an error message in such cases.
 
-Change the greeting function so that instead of returning a string greeting a stranger, 
-it throws an `Error` with the message `"Person must have name and surname"`.
+Modify the greeting function so that, instead of returning a string greeting a stranger 
+it throws an `Error` with the message `"A person must have a name and a surname"`.

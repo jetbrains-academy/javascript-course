@@ -39,7 +39,7 @@ test('Check extra example', () => {
         }
         expect(greeting(nameless)).toBe("Hello, stranger!");
     } catch (e){
-        customizeError(e, 'Stranger can have a surname but no name.', true)
+        customizeError(e, 'A stranger can have a surname but no first name.', true)
         throw e
     }
 });
