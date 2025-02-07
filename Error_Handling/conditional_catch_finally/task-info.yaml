@@ -1,0 +1,13 @@
+type: edu
+custom_name: Conditional catch and finally blocks
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 121
+        length: 224
+        placeholder_text: // Handle RangeError and TypeError differently using the instanceof
+          operator
+  - name: test/test.js
+    visible: false
+    propagatable: false

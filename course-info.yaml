@@ -18,5 +18,6 @@ content:
   - Loops
   - Objects_Advanced_patterns
   - Classes
+  - Error_Handling
   - Templates
 yaml_version: 1

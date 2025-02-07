@@ -1,0 +1,13 @@
+type: edu
+custom_name: Try...catch
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 420
+        length: 145
+        placeholder_text: "result += `${e.getDeparture()} - ${e.getDestination()}\\n`;"
+        is_visible: false
+  - name: test/test.js
+    visible: false
+    propagatable: false

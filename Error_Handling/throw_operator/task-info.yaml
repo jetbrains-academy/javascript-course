@@ -1,0 +1,12 @@
+type: edu
+custom_name: Throw operator
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 32
+        length: 126
+        placeholder_text: // Throw an error here
+  - name: test/test.js
+    visible: false
+    propagatable: false

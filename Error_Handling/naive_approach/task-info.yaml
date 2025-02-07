@@ -1,0 +1,12 @@
+type: edu
+custom_name: Naive approach
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 91
+        placeholder_text: // Check `person` for "name" and "surname" attributes.
+  - name: test/test.js
+    visible: false
+    propagatable: false
