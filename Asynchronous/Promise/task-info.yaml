@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 80
+        length: 63
+        placeholder_text: // Implement a `name` validation here
+  - name: test/test.js
+    visible: false
+    propagatable: false

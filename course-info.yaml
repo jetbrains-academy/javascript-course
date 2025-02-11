@@ -19,5 +19,9 @@ content:
   - Objects_Advanced_patterns
   - Classes
   - Error_Handling
+  - Asynchronous
   - Templates
-yaml_version: 1
+additional_files:
+  - name: package.json
+  - name: utils/utils.js
+yaml_version: 2
