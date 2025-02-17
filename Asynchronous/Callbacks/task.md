@@ -1,9 +1,8 @@
-Before we dive into the specifics of asynchronous program execution, let's take a look at the mechanism we will actively use for this purpose: _callbacks_.
-
-A _callback_ is a function passed as an argument to another function, allowing to execute the callback function at a later time.
-
-In JavaScript, callbacks play a vital role in handling tasks that don't complete immediately (these tasks are called _asynchronous_). 
+In JavaScript, _callbacks_ play a vital role in handling tasks that don't complete immediately (these tasks are called _asynchronous_).
 They provide a way to continue executing code after an operation is finished, preventing the program from being blocked while waiting for the operation to complete.
+
+In the code, _callback_ is a function passed as an argument to another function, allowing to execute the callback function at a later time.
+Before we dive into the specifics of asynchronous program execution, let's start from it.
 
 Let's look at the example below. The `calculateAsync` function takes two numbers and `callback`, a function that will then be called with the result of the addition as an argument.
 Internally, a special built-in JavaScript method, `setTimeout`, is used. It allows the instructions you pass to it executed with a delay, in this example, of 2000 ms.
