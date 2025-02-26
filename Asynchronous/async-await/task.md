@@ -85,6 +85,6 @@ You can read more about [async functions](https://developer.mozilla.org/en-US/do
 
 ### Task
 The `collector` function is an asynchronous function that takes two promises (`number1` and `number2`) as inputs.
-It should wait until they both promises are resolved, add the resolved values to an array in the order `[number1, number2]`, and return this array as the result of the function.
+It should wait until both promises are resolved, add the resolved values to an array in the order `[number1, number2]`, and return this array as the result of the function.
 
 However, the current implementation doesn't work at all. Fix the function using `await` in your solution.
