@@ -6,6 +6,10 @@ summary: |-
   - The course will be most beneficial for beginner-level JavaScript learners.
   - The course covers core JavaScript features.
   - It contains hands-on examples of JavaScript code implementation and exercises to practice new skills.
+vendor:
+  name: JetBrains
+  email: support@jetbrains.com
+  url: https://www.jetbrains.com/
 programming_language: JavaScript
 content:
   - Introduction
