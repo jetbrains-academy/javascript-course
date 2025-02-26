@@ -1,6 +1,0 @@
-type: edu
-files:
-  - name: task.js
-    visible: true
-  - name: test/test.js
-    visible: false

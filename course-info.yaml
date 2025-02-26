@@ -1,5 +1,5 @@
 type: marketplace
-title: JavaScript Course
+title: Introduction to JavaScript
 language: English
 summary: |-
   This is an introductory JavaScript course.
@@ -20,7 +20,7 @@ content:
   - Classes
   - Error_Handling
   - Asynchronous
-  - Templates
+  - Feedback survey
 additional_files:
   - name: package.json
   - name: utils/utils.js
