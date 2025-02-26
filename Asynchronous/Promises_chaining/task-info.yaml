@@ -1,0 +1,12 @@
+type: edu
+custom_name: Promise chaining
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 210
+        length: 89
+        placeholder_text: // Calculate the sum and return it as the result
+  - name: test/test.js
+    visible: false
+    propagatable: false

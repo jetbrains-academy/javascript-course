@@ -12,3 +12,4 @@ files:
     propagatable: false
   - name: two_ref_one_obj.png
     visible: false
+    is_binary: true

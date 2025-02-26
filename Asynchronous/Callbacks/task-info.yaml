@@ -1,0 +1,11 @@
+type: edu
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 46
+        length: 80
+        placeholder_text: // Apply `transform` to each element of the `array`
+  - name: test/test.js
+    visible: false
+    propagatable: false

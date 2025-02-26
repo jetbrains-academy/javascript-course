@@ -1,0 +1,15 @@
+type: edu
+custom_name: Async/await
+files:
+  - name: task.js
+    visible: true
+    placeholders:
+      - offset: 190
+        length: 51
+        placeholder_text: |-
+          number1.then((x) => arr.push(x));
+            number2.then((x) => arr.push(x));
+        is_visible: false
+  - name: test/test.js
+    visible: false
+    propagatable: false
