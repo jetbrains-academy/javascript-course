@@ -10,4 +10,8 @@ a brief theoretical explanation with a hands-on task to reinforce learning.
 
 By the end of the course, you’ll have a strong foundation to explore advanced JavaScript frameworks and pursue professional web application development.
 
+### Discord
+Please join the course chat on Discord using the [link](https://discord.gg/kRu79uv7np). 
+There, you can ask questions, interact with instructors, and connect with your fellow students.
+
 Have fun, and good luck!
