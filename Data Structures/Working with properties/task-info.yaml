@@ -5,10 +5,12 @@ files:
     placeholders:
       - offset: 74
         length: 17
-        placeholder_text: // Add a "price" property to the car object with a value of 9250
+        placeholder_text: // Add a "price" property to the car object with a value of
+          9250
       - offset: 92
         length: 21
-        placeholder_text: // Add a "currency" property to the car object with a value of "USD"
+        placeholder_text: // Add a "currency" property to the car object with a value
+          of "USD"
       - offset: 114
         length: 17
         placeholder_text: // Delete the "owner" property from the car object
