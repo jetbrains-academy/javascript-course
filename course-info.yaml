@@ -2,10 +2,15 @@ type: marketplace
 title: Introduction to JavaScript
 language: English
 summary: |-
-  This is an introductory JavaScript course.
-  - The course will be most beneficial for beginner-level JavaScript learners.
-  - The course covers core JavaScript features.
-  - It contains hands-on examples of JavaScript code implementation and exercises to practice new skills.
+  New to JavaScript or programming? Master the basics with this beginner-friendly JavaScript course by JetBrains Academy.
+
+  No overload, no overwhelm—just clear, structured lessons in bite-sized portions. We’ve carefully selected essential material to help you progress smoothly, without unnecessary complexity.
+
+  You’ll begin with core JavaScript concepts like variables, conditions, and loops, then gradually build up to more advanced topics such as data structures, error handling, and asynchronous functions. Each step includes links to additional resources you can revisit anytime—ensuring you’re never stuck and always supported.
+
+  By the end of the course, you’ll have a strong foundation to explore advanced JavaScript frameworks and pursue professional web application development.
+
+  Start your web development journey today and enjoy coding!
 vendor:
   name: JetBrains
   email: support@jetbrains.com
