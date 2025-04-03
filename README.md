@@ -16,3 +16,4 @@ If you have questions about the course or the tasks, or if you find any errors, 
 
 ## Contribution
 Please be sure to review the [project's contributing guidelines](https://github.com/jetbrains-academy/.github/blob/main/contributing_guidelines.md) to learn how to help the project.
+
