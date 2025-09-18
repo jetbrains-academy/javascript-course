@@ -1,5 +1,7 @@
-# Introduction to JavaScript
+# Introduction to JavaScript Programming
 [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<a href="https://plugins.jetbrains.com/plugin/26697/versions" target="_blank">
+<img src="https://img.shields.io/badge/dynamic/yaml?query=%24.course_version&url=https://raw.githubusercontent.com/jetbrains-academy/javascript-course/refs/heads/main/course-remote-info.yaml&logo=jetbrains&logoColor=FC801D&label=Marketplace&color=6b59fe&style=flat&prefix=v" alt="Marketplace"></a>
 
 New to JavaScript or programming? Master the basics with this beginner-friendly JavaScript course by JetBrains Academy.
 
