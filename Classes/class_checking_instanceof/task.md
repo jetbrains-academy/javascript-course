@@ -50,7 +50,7 @@ This time, you are given a chain of classes: the `Professor` class is a child of
 Additionally, you have the `professorsPresenter` function, which is designed to present professors (`LabHead` is also considered a professor, as indicated by the class inheritance chain).
 
 Your task is to implement the following:
-1. The `intro` method for the `LabHead` class, which appends the result of the `intro` method from the `Professor` class with the string `"Head of <labName> lab."`.
+1. The `intro` method for the `LabHead` class, which appends the result of the `intro` method from the `Professor` class with the string `" Head of <labName> lab."`.
 2. The `professorsPresenter` function so that it:
     - Returns the result of the `intro` method for objects of the `Professor` class and its subclasses.
     - Returns `null` for objects of all other classes.
